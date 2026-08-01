@@ -17,18 +17,16 @@ Hi, I'm **Popmango**. I build and maintain a source list for
 covering novels, manga, manhwa, and manhua. Every extension in it is written by
 hand in my own repository — it is not a mirror of anyone else's catalog.
 
-**Paperback is the one I maintain.** There is also an Aidoku repository, but I
-do not maintain a source list for Aidoku: those are ports of my Paperback
-sources that I put together for my own use, so the titles missing from Aidoku
-would still be readable. They are best effort, they lag behind, and they may
-break without being fixed. Use the Paperback list if you have the choice.
+There is also an Aidoku repository — ports of the same sources, so the titles
+are readable on Aidoku too. They work, but Paperback is the list I actively
+maintain, so the Aidoku side is updated less often.
 
 ## My Repositories
 
 | Repository | What it is |
 | :--------- | :--------- |
-| **[Paperback Sources](https://github.com/PoppingMangoSources/general-extensions-mangago)** | The one I maintain. 22 extensions for Paperback 0.9 — 18 manga, manhwa & manhua, plus 4 novel sources. |
-| **[Aidoku Sources](https://github.com/PoppingMangoSources/myaidokusources)** | Not maintained. 18 unofficial ports of the sources above, kept for my own use and shared as-is. |
+| **[Paperback Sources](https://github.com/PoppingMangoSources/general-extensions-mangago)** | The list I actively maintain. 22 extensions for Paperback 0.9 — 18 manga, manhwa & manhua, plus 4 novel sources. |
+| **[Aidoku Sources](https://github.com/PoppingMangoSources/myaidokusources)** | 18 ports of the sources above, so the same titles are readable on Aidoku. Updated less often than the Paperback list. |
 
 ## Add a Repository
 
@@ -48,10 +46,7 @@ opens. To add it by hand, open Paperback and go to
 https://poppingmangosources.github.io/general-extensions-mangago/0.9/test/
 ```
 
-### Aidoku (unmaintained)
-
-Only worth adding if a title you want isn't on Aidoku already — these ports are
-not kept up to date, and a broken one may stay broken.
+### Aidoku
 
 <p align="center">
   <a href="https://poppingmangosources.github.io/myaidokusources/">
@@ -70,8 +65,8 @@ Refresh the repository in either app whenever you want to pick up source updates
 
 ## Support
 
-Support covers the **Paperback** sources. The Aidoku ports are shared as-is, so
-reports about those may not get a fix.
+Support is focused on the **Paperback** sources; Aidoku fixes land when I get to
+them.
 
 <p align="center">
   <a href="https://discord.com/invite/inkdex">
