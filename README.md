@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="media/banner.svg" alt="PoppingMango — source lists for Paperback and Aidoku" width="100%"/>
+  <img src="media/banner.svg" alt="PoppingMango — source list for Paperback" width="100%"/>
 </p>
 
 <p align="center">
@@ -12,20 +12,23 @@
 
 ## About
 
-Hi, I'm **Popmango**. I build and maintain source lists for
-[Paperback](https://paperback.moe) and [Aidoku](https://aidoku.app) — ad-free
-readers for iPhone and iPad — covering novels, manga, manhwa, and manhua.
+Hi, I'm **Popmango**. I build and maintain a source list for
+[Paperback](https://paperback.moe), an ad-free reader for iPhone and iPad,
+covering novels, manga, manhwa, and manhua. Every extension in it is written by
+hand in my own repository — it is not a mirror of anyone else's catalog.
 
-Everything here is written and maintained by hand in my own repositories. It is
-not a mirror of anyone else's catalog. Paperback is the main one; the Aidoku
-list exists so I could read the titles that weren't already available there.
+**Paperback is the one I maintain.** There is also an Aidoku repository, but I
+do not maintain a source list for Aidoku: those are ports of my Paperback
+sources that I put together for my own use, so the titles missing from Aidoku
+would still be readable. They are best effort, they lag behind, and they may
+break without being fixed. Use the Paperback list if you have the choice.
 
 ## My Repositories
 
 | Repository | What it is |
 | :--------- | :--------- |
-| **[Paperback Sources](https://github.com/PoppingMangoSources/general-extensions-mangago)** | 22 extensions for Paperback 0.9 — 18 manga, manhwa & manhua, plus 4 novel sources. The main repository. |
-| **[Aidoku Sources](https://github.com/PoppingMangoSources/myaidokusources)** | 18 Aidoku ports of the sources above, built so the same titles are readable on Aidoku. Best effort, not maintained 24/7. |
+| **[Paperback Sources](https://github.com/PoppingMangoSources/general-extensions-mangago)** | The one I maintain. 22 extensions for Paperback 0.9 — 18 manga, manhwa & manhua, plus 4 novel sources. |
+| **[Aidoku Sources](https://github.com/PoppingMangoSources/myaidokusources)** | Not maintained. 18 unofficial ports of the sources above, kept for my own use and shared as-is. |
 
 ## Add a Repository
 
@@ -45,7 +48,10 @@ opens. To add it by hand, open Paperback and go to
 https://poppingmangosources.github.io/general-extensions-mangago/0.9/test/
 ```
 
-### Aidoku
+### Aidoku (unmaintained)
+
+Only worth adding if a title you want isn't on Aidoku already — these ports are
+not kept up to date, and a broken one may stay broken.
 
 <p align="center">
   <a href="https://poppingmangosources.github.io/myaidokusources/">
@@ -63,6 +69,9 @@ https://poppingmangosources.github.io/myaidokusources/index.min.json
 Refresh the repository in either app whenever you want to pick up source updates.
 
 ## Support
+
+Support covers the **Paperback** sources. The Aidoku ports are shared as-is, so
+reports about those may not get a fix.
 
 <p align="center">
   <a href="https://discord.com/invite/inkdex">
