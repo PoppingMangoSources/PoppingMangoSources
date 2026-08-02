@@ -14,8 +14,7 @@
 
 Hi, I'm **Popmango**. I build and maintain a source list for
 [Paperback](https://paperback.moe), an ad-free reader for iPhone and iPad,
-covering novels, manga, manhwa, and manhua. Every extension in it is written by
-hand in my own repository — it is not a mirror of anyone else's catalog.
+covering novels, manga, manhwa, and manhua. Every extension in it is made in my own repository — it is not a mirror of anyone else's catalog.
 
 There is also an Aidoku repository. The code there is a clone of my Paperback
 sources, ported so the same titles are readable on Aidoku. They work, but
