@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="media/banner.svg" alt="PoppingMango — source list for Paperback" width="100%"/>
+  <img src="media/banner.svg?v=2" alt="PoppingMango — source list for Paperback" width="100%"/>
 </p>
 
 <p align="center">
-  <img src="media/badge-ios.svg" alt="iOS / iPadOS" height="28"/>
-  <img src="media/badge-paperback.svg" alt="22 Paperback sources" height="28"/>
-  <img src="media/badge-aidoku.svg" alt="18 Aidoku sources" height="28"/>
+  <img src="media/badge-ios.svg?v=2" alt="iOS / iPadOS" height="28"/>
+  <img src="media/badge-paperback.svg?v=2" alt="22 Paperback sources" height="28"/>
+  <img src="media/badge-aidoku.svg?v=2" alt="18 Aidoku sources" height="28"/>
 </p>
 
 ---
@@ -17,16 +17,17 @@ Hi, I'm **Popmango**. I build and maintain a source list for
 covering novels, manga, manhwa, and manhua. Every extension in it is written by
 hand in my own repository — it is not a mirror of anyone else's catalog.
 
-There is also an Aidoku repository — ports of the same sources, so the titles
-are readable on Aidoku too. They work, but Paperback is the list I actively
-maintain, so the Aidoku side is updated less often.
+There is also an Aidoku repository. The code there is a clone of my Paperback
+sources, ported so the same titles are readable on Aidoku. They work, but
+Paperback is the list I actively maintain, so I can't say when I'll get to
+fixes on the Aidoku side.
 
 ## My Repositories
 
 | Repository | What it is |
 | :--------- | :--------- |
 | **[Paperback Sources](https://github.com/PoppingMangoSources/general-extensions-mangago)** | The list I actively maintain. 22 extensions for Paperback 0.9 — 18 manga, manhwa & manhua, plus 4 novel sources. |
-| **[Aidoku Sources](https://github.com/PoppingMangoSources/myaidokusources)** | 18 ports of the sources above, so the same titles are readable on Aidoku. Updated less often than the Paperback list. |
+| **[Aidoku Sources](https://github.com/PoppingMangoSources/myaidokusources)** | 18 sources cloned from the Paperback code above and ported to Aidoku. Fixes land whenever I get to them. |
 
 ## Add a Repository
 
@@ -34,7 +35,7 @@ maintain, so the Aidoku side is updated less often.
 
 <p align="center">
   <a href="https://poppingmangosources.github.io/general-extensions-mangago/0.9/test/">
-    <img src="media/button-paperback.svg" alt="Add PoppingMango to Paperback" height="52"/>
+    <img src="media/button-paperback.svg?v=2" alt="Add PoppingMango to Paperback" height="52"/>
   </a>
 </p>
 
@@ -50,7 +51,7 @@ https://poppingmangosources.github.io/general-extensions-mangago/0.9/test/
 
 <p align="center">
   <a href="https://poppingmangosources.github.io/myaidokusources/">
-    <img src="media/button-aidoku.svg" alt="Add PoppingMango to Aidoku" height="52"/>
+    <img src="media/button-aidoku.svg?v=2" alt="Add PoppingMango to Aidoku" height="52"/>
   </a>
 </p>
 
@@ -70,7 +71,7 @@ them.
 
 <p align="center">
   <a href="https://discord.com/invite/inkdex">
-    <img src="media/button-discord.svg" alt="Join the support Discord" height="36"/>
+    <img src="media/button-discord.svg?v=2" alt="Join the support Discord" height="36"/>
   </a>
 </p>
 
