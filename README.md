@@ -65,19 +65,21 @@ Refresh the repository in either app whenever you want to pick up source updates
 
 ## Support
 
-Support is focused on the **Paperback** sources; Aidoku fixes land when I get to
-them.
-
 <p align="center">
   <a href="https://discord.com/invite/inkdex">
     <img src="media/button-discord.svg?v=2" alt="Join the support Discord" height="36"/>
   </a>
 </p>
 
-Source problems are handled in the **OTHER-REPOS** channel of the linked Discord,
-where the PoppingMango support chat lives. Include the affected source, the page
-or title that failed, and screenshots or request details when possible — it makes
-fixes much faster.
+**Paperback sources** — report problems in the **OTHER-REPOS** channel of the
+linked Discord, where the PoppingMango support chat lives.
+
+**Aidoku sources** — open an
+[issue](https://github.com/PoppingMangoSources/myaidokusources/issues) on that
+repository. Fixes land whenever I get to them.
+
+Either way, include the affected source, the page or title that failed, and
+screenshots or request details when possible — it makes fixes much faster.
 
 ## Disclaimer
 
