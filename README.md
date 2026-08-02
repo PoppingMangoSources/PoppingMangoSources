@@ -71,14 +71,20 @@ Refresh the repository in either app whenever you want to pick up source updates
   </a>
 </p>
 
-**Paperback sources** — report problems in the **OTHER-REPOS** channel of the
-linked Discord, where the PoppingMango support chat lives.
+**A broken Paperback source** — report it in the **OTHER-REPOS** channel of the
+linked Discord, where the PoppingMango support chat lives. Issues on the
+Paperback repository are not the place for these.
 
-**Aidoku sources** — open an
+**A new source you'd like added** — open an
+[issue](https://github.com/PoppingMangoSources/general-extensions-mangago/issues)
+on the Paperback repository under the **source request** label. Requests only,
+and no promises about which ones get built.
+
+**A broken Aidoku source** — open an
 [issue](https://github.com/PoppingMangoSources/myaidokusources/issues) on that
 repository. Fixes land whenever I get to them.
 
-Either way, include the affected source, the page or title that failed, and
+Wherever it goes, include the affected source, the page or title that failed, and
 screenshots or request details when possible — it makes fixes much faster.
 
 ## Disclaimer
