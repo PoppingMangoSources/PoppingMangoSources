@@ -25,7 +25,7 @@ fixes on the Aidoku side.
 
 | Repository | What it is |
 | :--------- | :--------- |
-| **[Paperback Sources](https://github.com/PoppingMangoSources/general-extensions-mangago)** | The list I actively maintain. 22 extensions for Paperback 0.9 — 18 manga, manhwa & manhua, plus 4 novel sources. |
+| **[Paperback Sources](https://github.com/PoppingMangoSources/general-extensions-mangago)** | The list I actively maintain. 25 extensions for Paperback 0.9 — 21 manga, manhwa & manhua, plus 4 novel sources. |
 | **[Aidoku Sources](https://github.com/PoppingMangoSources/myaidokusources)** | 18 sources cloned from the Paperback code above and ported to Aidoku. Fixes land whenever I get to them. |
 
 ## Add a Repository
