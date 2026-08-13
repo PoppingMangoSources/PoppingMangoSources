@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="media/banner.svg?v=2" alt="PoppingMango — source list for Paperback" width="100%"/>
+  <img src="https://camo.githubusercontent.com/0ce0c2561106789c07e53f34c0d0cbdfb0293bb7d0110a6fba96133971e58a92/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f506f7070696e674d616e676f536f75726365732f67656e6572616c2d657874656e73696f6e732d6d616e6761676f40302e39253246746573742f6d656469612f6865616465722e7376673f763d32" alt="PoppingMango — source list for Paperback" width="100%"/>
 </p>
 
 <p align="center">
-  <img src="media/badge-ios.svg?v=2" alt="iOS / iPadOS" height="28"/>
-  <img src="media/badge-paperback.svg?v=2" alt="22 Paperback sources" height="28"/>
-  <img src="media/badge-aidoku.svg?v=2" alt="18 Aidoku sources" height="28"/>
+  <img src="https://camo.githubusercontent.com/89bcea6439843222ac2bd2346609a237137b8b5565c35582cef504311ba2e91a/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f506f7070696e674d616e676f536f75726365732f67656e6572616c2d657874656e73696f6e732d6d616e6761676f40302e39253246746573742f6d656469612f62616467652d696f732e7376673f763d32" alt="iOS / iPadOS" height="28"/>
+  <img src="https://camo.githubusercontent.com/785670cd4bf4063d079f5ebed27ca468e606a61f1e556bb9705eef097f806890/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f506f7070696e674d616e676f536f75726365732f67656e6572616c2d657874656e73696f6e732d6d616e6761676f40302e39253246746573742f6d656469612f62616467652d636f756e742e7376673f763d38" alt="28 Paperback sources" height="28"/>
+  <img src="https://camo.githubusercontent.com/de3f068c3ae8642cfbced9a542943cc574c8f727bdb4850a168ae951e358d553/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f506f7070696e674d616e676f536f75726365732f506f7070696e674d616e676f536f7572636573406d61696e2f6d656469612f62616467652d6169646f6b752e7376673f763d32" alt="18 Aidoku sources" height="28"/>
 </p>
 
 ---
@@ -25,7 +25,7 @@ fixes on the Aidoku side.
 
 | Repository | What it is |
 | :--------- | :--------- |
-| **[Paperback Sources](https://github.com/PoppingMangoSources/general-extensions-mangago)** | The list I actively maintain. 25 extensions for Paperback 0.9 — 21 manga, manhwa & manhua, plus 4 novel sources. |
+| **[Paperback Sources](https://github.com/PoppingMangoSources/general-extensions-mangago)** | The list I actively maintain. 28 extensions for Paperback 0.9 — 24 manga, manhwa & manhua, plus 4 novel sources. |
 | **[Aidoku Sources](https://github.com/PoppingMangoSources/myaidokusources)** | 18 sources cloned from the Paperback code above and ported to Aidoku. Fixes land whenever I get to them. |
 
 ## Add a Repository
@@ -34,7 +34,7 @@ fixes on the Aidoku side.
 
 <p align="center">
   <a href="https://poppingmangosources.github.io/general-extensions-mangago/0.9/test/">
-    <img src="media/button-paperback.svg?v=2" alt="Add PoppingMango to Paperback" height="52"/>
+    <img src="https://camo.githubusercontent.com/8fbf73076f0bebb6cccac915345a913ade3a191bfa812aa5f3ac750e9afe4f86/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f506f7070696e674d616e676f536f75726365732f67656e6572616c2d657874656e73696f6e732d6d616e6761676f40302e39253246746573742f6d656469612f627574746f6e2d6164642e7376673f763d32" alt="Add PoppingMango to Paperback" height="52"/>
   </a>
 </p>
 
@@ -50,7 +50,7 @@ https://poppingmangosources.github.io/general-extensions-mangago/0.9/test/
 
 <p align="center">
   <a href="https://poppingmangosources.github.io/myaidokusources/">
-    <img src="media/button-aidoku.svg?v=2" alt="Add PoppingMango to Aidoku" height="52"/>
+    <img src="https://camo.githubusercontent.com/87a96250998a5c951ec92815de77c8cf3b8b22e302c0b84ed65e2afcc6c0cb81/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f506f7070696e674d616e676f536f75726365732f506f7070696e674d616e676f536f7572636573406d61696e2f6d656469612f627574746f6e2d6169646f6b752e7376673f763d32" alt="Add PoppingMango to Aidoku" height="52"/>
   </a>
 </p>
 
@@ -67,7 +67,7 @@ Refresh the repository in either app whenever you want to pick up source updates
 
 <p align="center">
   <a href="https://discord.com/invite/inkdex">
-    <img src="media/button-discord.svg?v=2" alt="Join the support Discord" height="36"/>
+    <img src="https://camo.githubusercontent.com/121811d646a819a4a7c7b64e33e8707e005159384a4b04fd8af8ec9898bf800c/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f506f7070696e674d616e676f536f75726365732f67656e6572616c2d657874656e73696f6e732d6d616e6761676f40302e39253246746573742f6d656469612f627574746f6e2d646973636f72642e7376673f763d32" alt="Join the support Discord" height="36"/>
   </a>
 </p>
 
