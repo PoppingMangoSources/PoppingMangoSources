@@ -8,13 +8,19 @@
   <img src="https://camo.githubusercontent.com/785670cd4bf4063d079f5ebed27ca468e606a61f1e556bb9705eef097f806890/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f506f7070696e674d616e676f536f75726365732f67656e6572616c2d657874656e73696f6e732d6d616e6761676f40302e39253246746573742f6d656469612f62616467652d636f756e742e7376673f763d38" alt="28 Paperback sources" height="28"/>
 </p>
 
+<p align="center">
+  <a href="https://poppingmangosources.github.io/general-extensions-mangago/0.9/test/">
+    <img src="https://camo.githubusercontent.com/8fbf73076f0bebb6cccac915345a913ade3a191bfa812aa5f3ac750e9afe4f86/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f506f7070696e674d616e676f536f75726365732f67656e6572616c2d657874656e73696f6e732d6d616e6761676f40302e39253246746573742f6d656469612f627574746f6e2d6164642e7376673f763d32" alt="Add PoppingMango to Paperback" height="52"/>
+  </a>
+</p>
+
 ---
 
 ## About
 
 Hi, I'm **Popmango**. I build and maintain a source list for
 [Paperback](https://paperback.moe), an ad-free reader for iPhone and iPad,
-covering novels, manga, manhwa, and manhua. Every extension in it is made in my own repository — it is not a mirror of anyone else's catalog.
+covering novels, manga, manhwa, and manhua. Every extension in it is made in my own repository, it is not a mirror of anyone else's catalog.
 
 There is also an Aidoku repository. The code there is a clone of my Paperback
 sources, ported so the same titles are readable on Aidoku. They work, but
