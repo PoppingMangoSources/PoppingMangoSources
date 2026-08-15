@@ -14,6 +14,12 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://poppingmangosources.github.io/myaidokusources/">
+    <img src="https://camo.githubusercontent.com/87a96250998a5c951ec92815de77c8cf3b8b22e302c0b84ed65e2afcc6c0cb81/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f506f7070696e674d616e676f536f75726365732f506f7070696e674d616e676f536f7572636573406d61696e2f6d656469612f627574746f6e2d6169646f6b752e7376673f763d32" alt="Add PoppingMango to Aidoku" height="52"/>
+  </a>
+</p>
+
 ---
 
 ## About
