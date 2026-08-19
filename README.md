@@ -93,7 +93,7 @@ on the Paperback repository under the **source request** label. Requests only,
 and no promises about which ones get built.
 
 **A broken Aidoku source** — open an
-[issue](https://poppingmangosources.github.io/popmango-aidoku-sources/issues) on that
+[issue](https://github.com/PoppingMangoSources/popmango-aidoku-sources/issues) on that
 repository. Fixes land whenever I get to them.
 
 Wherever it goes, include the affected source, the page or title that failed, and
