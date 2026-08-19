@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="https://poppingmangosources.github.io/myaidokusources/">
+  <a href="https://poppingmangosources.github.io/popmango-aidoku-sources/">
     <img src="https://camo.githubusercontent.com/87a96250998a5c951ec92815de77c8cf3b8b22e302c0b84ed65e2afcc6c0cb81/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f506f7070696e674d616e676f536f75726365732f506f7070696e674d616e676f536f7572636573406d61696e2f6d656469612f627574746f6e2d6169646f6b752e7376673f763d32" alt="Add PoppingMango to Aidoku" height="52"/>
   </a>
 </p>
@@ -38,7 +38,7 @@ fixes on the Aidoku side.
 | Repository | What it is |
 | :--------- | :--------- |
 | **[Paperback Sources](https://github.com/PoppingMangoSources/general-extensions-mangago)** | The list I actively maintain. 28 extensions for Paperback 0.9 — 24 manga, manhwa & manhua, plus 4 novel sources. |
-| **[Aidoku Sources](https://github.com/PoppingMangoSources/myaidokusources)** | 18 sources cloned from the Paperback code above and ported to Aidoku. Fixes land whenever I get to them. |
+| **[Aidoku Sources](https://github.com/PoppingMangoSources/popmango-aidoku-sources)** | 18 sources cloned from the Paperback code above and ported to Aidoku. Fixes land whenever I get to them. |
 
 ## Add a Repository
 
@@ -61,7 +61,7 @@ https://poppingmangosources.github.io/general-extensions-mangago/0.9/test/
 ### Aidoku
 
 <p align="center">
-  <a href="https://poppingmangosources.github.io/myaidokusources/">
+  <a href="https://poppingmangosources.github.io/popmango-aidoku-sources/">
     <img src="https://camo.githubusercontent.com/87a96250998a5c951ec92815de77c8cf3b8b22e302c0b84ed65e2afcc6c0cb81/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f506f7070696e674d616e676f536f75726365732f506f7070696e674d616e676f536f7572636573406d61696e2f6d656469612f627574746f6e2d6169646f6b752e7376673f763d32" alt="Add PoppingMango to Aidoku" height="52"/>
   </a>
 </p>
@@ -70,7 +70,7 @@ Tap the button and choose **Add Repository** on the page that opens. To add it b
 hand, open Aidoku and go to **Settings → Source Lists**, then paste:
 
 ```
-https://poppingmangosources.github.io/myaidokusources/index.min.json
+https://poppingmangosources.github.io/popmango-aidoku-sources/index.min.json
 ```
 
 Refresh the repository in either app whenever you want to pick up source updates.
@@ -93,7 +93,7 @@ on the Paperback repository under the **source request** label. Requests only,
 and no promises about which ones get built.
 
 **A broken Aidoku source** — open an
-[issue](https://github.com/PoppingMangoSources/myaidokusources/issues) on that
+[issue](https://poppingmangosources.github.io/popmango-aidoku-sources/issues) on that
 repository. Fixes land whenever I get to them.
 
 Wherever it goes, include the affected source, the page or title that failed, and
