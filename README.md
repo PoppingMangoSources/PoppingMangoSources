@@ -88,7 +88,7 @@ Refresh the repository in either app whenever you want to pick up source updates
   </a>
 </p>
 
-**A broken Paperback source** — report it in the [**OTHER-REPOS**](https://discord.com/channels/965890377896845352/1367512880228077648) channel of the
+**A broken Paperback source**: report it in the [**OTHER-REPOS**](https://discord.com/channels/965890377896845352/1367512880228077648) channel of the
 linked Discord, where the PoppingMango support chat lives. Issues on the
 Paperback repository are not the place for these.
 
