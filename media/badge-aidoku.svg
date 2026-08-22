@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="288" height="60" viewBox="0 0 288 60" role="img" aria-label="18 Aidoku sources">
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="60" viewBox="0 0 288 60" role="img" aria-label="24 Aidoku sources">
   <defs><radialGradient id="b" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#eef8e2"/><stop offset="1" stop-color="#a8d48c"/></radialGradient></defs>
   <rect x="1.5" y="1.5" width="285" height="57" rx="28.5" fill="#dcefc8" stroke="#a8d48c" stroke-width="3"/>
   <circle cx="39" cy="29" r="13" fill="url(#b)"/><circle cx="34" cy="24" r="3.5" fill="#ffffff"/>
   <circle cx="55" cy="18" r="5" fill="#ffffff" opacity="0.9"/>
-  <text x="172" y="38" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="3" fill="#33162a">AIDOKU · 18</text>
+  <text x="172" y="38" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="3" fill="#33162a">AIDOKU · 24</text>
 </svg>
