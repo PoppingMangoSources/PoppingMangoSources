@@ -92,9 +92,10 @@ Refresh the repository in either app whenever you want to pick up source updates
 linked Discord, where the PoppingMango support chat lives. Issues on the
 Paperback repository are not the place for these.
 
-**New source requests are currently closed.** The Paperback catalog is complete
-for now, so development is focused on supporting and maintaining its 28 existing
-sources.
+**A new source you'd like added** — open an
+[issue](https://github.com/PoppingMangoSources/general-extensions-mangago/issues)
+on the Paperback repository under the **source request** label. Requests only,
+and no promises about which ones get built.
 
 **A broken Aidoku source**: open an
 [issue](https://github.com/PoppingMangoSources/popmango-aidoku-sources/issues) on that
