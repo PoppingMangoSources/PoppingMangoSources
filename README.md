@@ -96,12 +96,12 @@ Paperback repository are not the place for these.
 for now, so development is focused on supporting and maintaining its 28 existing
 sources.
 
-**A broken Aidoku source** — open an
+**A broken Aidoku source**: open an
 [issue](https://github.com/PoppingMangoSources/popmango-aidoku-sources/issues) on that
 repository. Fixes land whenever I get to them.
 
 Wherever it goes, include the affected source, the page or title that failed, and
-screenshots or request details when possible — it makes fixes much faster.
+screenshots or request details when possible, it makes fixes much faster.
 
 ## Disclaimer
 
