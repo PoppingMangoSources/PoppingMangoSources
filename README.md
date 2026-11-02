@@ -3,10 +3,11 @@
 </p>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/badge-ios.svg?v=2" alt="iOS / iPadOS" height="28"/>
-  <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/badge-version.svg?v=2" alt="Paperback 0.9+" height="28"/>
-  <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/badge-count.svg?v=11" alt="28 Paperback sources" height="28"/>
+  <img src="media/badge-ios.svg" alt="iOS / iPadOS" height="28"/>
+  <img src="media/badge-paperback.svg" alt="28 Paperback sources" height="28"/>
+  <br/>
   <img src="media/badge-mana.svg" alt="11 Mana sources" height="28"/>
+  <img src="media/badge-aidoku.svg" alt="20 Aidoku sources" height="28"/>
 </p>
 
 <p align="center">
