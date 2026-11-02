@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="523" height="72" viewBox="0 0 523 72" role="img" aria-label="Open the OTHER-REPOS Discord channel">
   <defs>
-    <linearGradient id="lsupport-mango" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffc98a"/><stop offset="1" stop-color="#ffa45c"/></linearGradient>
-    <linearGradient id="lsupport-crystal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f2f6ff"/><stop offset="0.5" stop-color="#86a6ff"/><stop offset="1" stop-color="#3a58d6"/></linearGradient>
-    <radialGradient id="lsupport-pink" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#fff1f7"/><stop offset="1" stop-color="#ff9fc3"/></radialGradient>
-    <radialGradient id="lsupport-mint" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#f1f9e8"/><stop offset="1" stop-color="#9fd07f"/></radialGradient>
-    <radialGradient id="lsupport-glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
-    <radialGradient id="lsupport-bubble" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#ffffff" stop-opacity="0.92"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.32"/></radialGradient>
-    <linearGradient id="lsupport-fill" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff4f9"/><stop offset="1" stop-color="#ffe4cc"/></linearGradient>
+    <linearGradient id="psupport72-mango" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffc98a"/><stop offset="1" stop-color="#ffa45c"/></linearGradient>
+    <linearGradient id="psupport72-ribbon" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f74b4b"/><stop offset="1" stop-color="#de4d4d"/></linearGradient>
+    <linearGradient id="psupport72-coral" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff8a9c"/><stop offset="1" stop-color="#ff375f"/></linearGradient>
+    <linearGradient id="psupport72-crystal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f2f6ff"/><stop offset="0.5" stop-color="#86a6ff"/><stop offset="1" stop-color="#3a58d6"/></linearGradient>
+    <radialGradient id="psupport72-glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="psupport72-bubble" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#ffffff" stop-opacity="0.92"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.32"/></radialGradient>
+    <linearGradient id="psupport72-fill" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff6fa"/><stop offset="1" stop-color="#ffe4cc"/></linearGradient>
   </defs>
-  <rect x="1.5" y="1.5" width="520" height="69" rx="34.5" fill="url(#lsupport-fill)" stroke="#ffc49a" stroke-width="3"/>
-  <rect x="5" y="5" width="513" height="62" rx="31" fill="none" stroke="#ffffff" stroke-opacity="0.75" stroke-width="1.5"/>
-  <g transform="translate(44,35)"><path d="M-15,-12 h30 a8 8 0 0 1 8 8 v10 a8 8 0 0 1 -8 8 h-12 l-9 8 v-8 h-9 a8 8 0 0 1 -8 -8 v-10 a8 8 0 0 1 8 -8 Z" fill="url(#lsupport-mango)"/><circle cx="-7" cy="1" r="2.6" fill="#33162a"/><circle cx="0" cy="1" r="2.6" fill="#33162a"/><circle cx="7" cy="1" r="2.6" fill="#33162a"/></g>
-  <path d="M0,-12 C1.6,-3.6 3.6,-1.6 12,0 C3.6,1.6 1.6,3.6 0,12 C-1.6,3.6 -3.6,1.6 -12,0 C-3.6,-1.6 -1.6,-3.6 0,-12 Z" transform="translate(68,17) scale(0.45)" fill="#ffffff" opacity="1"/>
-  <text x="84" y="45" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="700" fill="#33162a">Open the OTHER-REPOS Channel</text>
+  <rect x="1.5" y="1.5" width="520" height="69" rx="34.5" fill="url(#psupport72-fill)" stroke="#ffc49a" stroke-width="3"/>
+  <g transform="translate(42,36) scale(0.95)"><path d="M-15,-12 h30 a8 8 0 0 1 8 8 v10 a8 8 0 0 1 -8 8 h-12 l-9 8 v-8 h-9 a8 8 0 0 1 -8 -8 v-10 a8 8 0 0 1 8 -8 Z" fill="url(#psupport72-mango)"/>
+      <circle cx="-7" cy="1" r="2.6" fill="#33162a"/><circle cx="0" cy="1" r="2.6" fill="#33162a"/><circle cx="7" cy="1" r="2.6" fill="#33162a"/></g>
+  <path d="M0,-12 C1.6,-3.6 3.6,-1.6 12,0 C3.6,1.6 1.6,3.6 0,12 C-1.6,3.6 -3.6,1.6 -12,0 C-3.6,-1.6 -1.6,-3.6 0,-12 Z" transform="translate(64.32,17.28) scale(0.5142857142857142)" fill="#ffffff" opacity="1"/>
+  <text x="289.5" y="45" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="0" fill="#33162a">Open the OTHER-REPOS Channel</text>
 </svg>
