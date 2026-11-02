@@ -2,10 +2,10 @@
   <defs>
     <linearGradient id="tmana-mango" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffc98a"/><stop offset="1" stop-color="#ffa45c"/></linearGradient>
     <linearGradient id="tmana-ribbon" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f74b4b"/><stop offset="1" stop-color="#de4d4d"/></linearGradient>
-    <linearGradient id="tmana-coral" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff8a9c"/><stop offset="1" stop-color="#ff375f"/></linearGradient>
+    <linearGradient id="tmana-heart" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#ff8a8f"/><stop offset="0.55" stop-color="#ff4d63"/><stop offset="1" stop-color="#e2324f"/></linearGradient>
     <linearGradient id="tmana-crystal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef3ff"/><stop offset="0.55" stop-color="#7d9fff"/><stop offset="1" stop-color="#3f5fe0"/></linearGradient>
-    <radialGradient id="tmana-pearl" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#ffeaf3"/><stop offset="1" stop-color="#ff9fc3"/></radialGradient>
     <radialGradient id="tmana-glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="tmana-core" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="0.4" stop-color="#c9d8ff" stop-opacity="0.7"/><stop offset="1" stop-color="#7d9fff" stop-opacity="0"/></radialGradient>
     <radialGradient id="tmana-bubble" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.3"/></radialGradient>
     <radialGradient id="tmana-peach" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#fff0e2" stop-opacity="0.95"/><stop offset="1" stop-color="#ffbf8a" stop-opacity="0.45"/></radialGradient>
     <radialGradient id="tmana-blue" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#f2f6ff" stop-opacity="0.95"/><stop offset="1" stop-color="#9db6ff" stop-opacity="0.45"/></radialGradient>
@@ -32,13 +32,13 @@
     <path d="M0,-12 C1.6,-3.6 3.6,-1.6 12,0 C3.6,1.6 1.6,3.6 0,12 C-1.6,3.6 -3.6,1.6 -12,0 C-3.6,-1.6 -1.6,-3.6 0,-12 Z" transform="translate(204,36) scale(0.55)" fill="#ffffff" opacity="0.9"/>
   </g>
   <rect x="2" y="2" width="296" height="368" rx="46" fill="none" stroke="#ffffff" stroke-opacity="0.8" stroke-width="2.5"/>
-  <g transform="translate(150,136) scale(2.35)"><path d="M0,-25 L16,-3 L0,26 L-16,-3 Z" fill="url(#tmana-crystal)"/>
+  <g transform="translate(150,138) scale(2.35)"><path d="M0,-25 L16,-3 L0,26 L-16,-3 Z" fill="url(#tmana-crystal)"/>
       <path d="M0,-25 L16,-3 L0,1 L-16,-3 Z" fill="#ffffff" opacity="0.45"/>
       <path d="M0,1 L16,-3 L0,26 Z" fill="#2c47b8" opacity="0.2"/>
       <path d="M-10,-6 L-4,-16" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" opacity="0.9"/></g>
   <text x="150" y="258" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="40" font-weight="800" fill="#33162a">Mana</text>
   <text x="150" y="290" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="800" letter-spacing="3" fill="#33162a" opacity="0.7">11 SOURCES</text>
   <rect x="58" y="308" width="184" height="46" rx="23" fill="#33162a"/>
-  <path d="M90 322 v18 M81 331 h18" stroke="#fff6fa" stroke-width="4.5" stroke-linecap="round"/>
-  <text x="164" y="339" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#fff6fa">Add repo</text>
+  <path d="M88 322 v18 M79 331 h18" stroke="#fff6fa" stroke-width="4.5" stroke-linecap="round"/>
+  <text x="162" y="339" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#fff6fa">Add Repo</text>
 </svg>

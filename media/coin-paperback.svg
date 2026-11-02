@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Paperback">
+  <defs>
+    <linearGradient id="opaperback-mango" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffc98a"/><stop offset="1" stop-color="#ffa45c"/></linearGradient>
+    <linearGradient id="opaperback-ribbon" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f74b4b"/><stop offset="1" stop-color="#de4d4d"/></linearGradient>
+    <linearGradient id="opaperback-heart" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#ff8a8f"/><stop offset="0.55" stop-color="#ff4d63"/><stop offset="1" stop-color="#e2324f"/></linearGradient>
+    <linearGradient id="opaperback-crystal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef3ff"/><stop offset="0.55" stop-color="#7d9fff"/><stop offset="1" stop-color="#3f5fe0"/></linearGradient>
+    <radialGradient id="opaperback-glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="opaperback-core" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="0.4" stop-color="#c9d8ff" stop-opacity="0.7"/><stop offset="1" stop-color="#7d9fff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="opaperback-bubble" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.3"/></radialGradient>
+    <radialGradient id="opaperback-peach" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#fff0e2" stop-opacity="0.95"/><stop offset="1" stop-color="#ffbf8a" stop-opacity="0.45"/></radialGradient>
+    <radialGradient id="opaperback-blue" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#f2f6ff" stop-opacity="0.95"/><stop offset="1" stop-color="#9db6ff" stop-opacity="0.45"/></radialGradient>
+    <radialGradient id="opaperback-mint" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#eef8e2" stop-opacity="0.95"/><stop offset="1" stop-color="#cfebb4" stop-opacity="0.45"/></radialGradient>
+    <linearGradient id="opaperback-fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff4f8"/><stop offset="1" stop-color="#ffb070"/></linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="url(#opaperback-fill)" stroke="#ffffff" stroke-width="3"/>
+  <ellipse cx="25" cy="15" rx="13" ry="6" fill="#ffffff" opacity="0.55"/>
+  <g transform="translate(32,35) scale(0.86)"><g transform="rotate(-8)">
+      <rect x="-13" y="-17" width="30" height="38" rx="6" fill="#fff6ec"/>
+      <path d="M15,-13 v30" stroke="#f3dcc6" stroke-width="1.2"/>
+      <rect x="-17" y="-19" width="30" height="38" rx="6" fill="url(#opaperback-mango)"/>
+      <rect x="-17" y="-19" width="6.5" height="38" rx="3.25" fill="#ff9a52" opacity="0.55"/>
+      <path d="M4,-19 h6.5 v15 l-3.25,-3.2 l-3.25,3.2 Z" fill="url(#opaperback-ribbon)"/>
+      <ellipse cx="-7" cy="-11" rx="2.4" ry="4.6" fill="#ffffff" opacity="0.5"/>
+      <path d="M-2,-19 C-2,-23 -0.5,-26 2,-27.5" fill="none" stroke="#a8d48c" stroke-width="2.6" stroke-linecap="round"/>
+      <ellipse cx="6.5" cy="-27.5" rx="5.5" ry="2.8" fill="#bde3a4" transform="rotate(18 6.5 -27.5)"/>
+      
+    </g></g>
+</svg>
