@@ -36,9 +36,9 @@ novels, manga, manhwa, and manhua. Every extension is made in my own repositorie
 are mirrors of anyone else's catalog.
 
 - **[Paperback](https://paperback.moe)**, an ad-free reader, gets my main list.
-- **Mana** gets its own sources, written directly against the Mana extension API rather than
+- **[Mana](https://mana-ios.github.io)** gets its own sources, written directly against the Mana extension API rather than
   repackaged from another app, so home sections, filters and settings behave the way Mana expects.
-- **Aidoku** gets ports of my Paperback sources, so the same titles are readable there. They work,
+- **[Aidoku](https://aidoku.app)** gets ports of my Paperback sources, so the same titles are readable there. They work,
   but fixes land whenever I get to them.
 
 ## My Repositories

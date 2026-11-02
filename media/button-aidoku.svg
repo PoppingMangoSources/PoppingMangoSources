@@ -1,32 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="788" height="104" viewBox="0 0 788 104" role="img" aria-label="Add PoppingMango to Aidoku">
+<svg xmlns="http://www.w3.org/2000/svg" width="821" height="104" viewBox="0 0 821 104" role="img" aria-label="Add PoppingMango to Aidoku">
   <defs>
     <linearGradient id="kaidoku-mango" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffc98a"/><stop offset="1" stop-color="#ffa45c"/></linearGradient>
     <linearGradient id="kaidoku-ribbon" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f74b4b"/><stop offset="1" stop-color="#de4d4d"/></linearGradient>
     <linearGradient id="kaidoku-coral" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff8a9c"/><stop offset="1" stop-color="#ff375f"/></linearGradient>
-    <linearGradient id="kaidoku-crystal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f2f6ff"/><stop offset="0.5" stop-color="#86a6ff"/><stop offset="1" stop-color="#3a58d6"/></linearGradient>
-    <radialGradient id="kaidoku-glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
-    <radialGradient id="kaidoku-bubble" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#ffffff" stop-opacity="0.92"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.32"/></radialGradient>
+    <linearGradient id="kaidoku-crystal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef3ff"/><stop offset="0.55" stop-color="#7d9fff"/><stop offset="1" stop-color="#3f5fe0"/></linearGradient>
+    <radialGradient id="kaidoku-pearl" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#ffeaf3"/><stop offset="1" stop-color="#ff9fc3"/></radialGradient>
+    <radialGradient id="kaidoku-glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="kaidoku-bubble" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.3"/></radialGradient>
+    <radialGradient id="kaidoku-peach" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#fff0e2" stop-opacity="0.95"/><stop offset="1" stop-color="#ffbf8a" stop-opacity="0.45"/></radialGradient>
+    <radialGradient id="kaidoku-blue" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#f2f6ff" stop-opacity="0.95"/><stop offset="1" stop-color="#9db6ff" stop-opacity="0.45"/></radialGradient>
+    <radialGradient id="kaidoku-mint" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#eef8e2" stop-opacity="0.95"/><stop offset="1" stop-color="#cfebb4" stop-opacity="0.45"/></radialGradient>
     <linearGradient id="kaidoku-fill" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ffdcea"/><stop offset="0.3" stop-color="#ffbbd5"/><stop offset="0.56" stop-color="#ffcda8"/>
-      <stop offset="0.8" stop-color="#ffc4cc"/><stop offset="1" stop-color="#ff95a8"/>
+      <stop offset="0" stop-color="#ffdcea"/><stop offset="0.3" stop-color="#ffbbd5"/><stop offset="0.58" stop-color="#ffcda8"/>
+      <stop offset="0.82" stop-color="#ffc4cc"/><stop offset="1" stop-color="#ff95a8"/>
     </linearGradient>
-    <clipPath id="kaidoku-clip"><rect width="788" height="104" rx="52"/></clipPath>
+    <clipPath id="kaidoku-clip"><rect width="821" height="104" rx="52"/></clipPath>
   </defs>
-  <rect width="788" height="104" rx="52" fill="url(#kaidoku-fill)"/>
+  <rect width="821" height="104" rx="52" fill="url(#kaidoku-fill)"/>
   <g clip-path="url(#kaidoku-clip)">
-    <rect x="6" y="6" width="776" height="44" rx="22" fill="#ffffff" opacity="0.3"/>
-    <circle cx="696" cy="52" r="48" fill="url(#kaidoku-glow)"/>
-    <circle cx="696" cy="52" r="40" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="1.5" stroke-dasharray="2.5 6"/>
-    <circle cx="754" cy="80" r="13" fill="url(#kaidoku-bubble)"/>
-    <circle cx="750" cy="76" r="3.4" fill="#ffffff" opacity="0.9"/>
-    <path d="M0,-12 C1.6,-3.6 3.6,-1.6 12,0 C3.6,1.6 1.6,3.6 0,12 C-1.6,3.6 -3.6,1.6 -12,0 C-3.6,-1.6 -1.6,-3.6 0,-12 Z" transform="translate(748,25) scale(0.72)" fill="#ffffff" opacity="1"/>
-    <path d="M0,-12 C1.6,-3.6 3.6,-1.6 12,0 C3.6,1.6 1.6,3.6 0,12 C-1.6,3.6 -3.6,1.6 -12,0 C-3.6,-1.6 -1.6,-3.6 0,-12 Z" transform="translate(644,78) scale(0.4)" fill="#ffffff" opacity="0.9"/>
+    <rect x="6" y="6" width="809" height="44" rx="22" fill="#ffffff" opacity="0.32"/>
+    <circle cx="659" cy="30" r="21" fill="url(#kaidoku-peach)"/><circle cx="652.28" cy="23.28" r="5.04" fill="#ffffff" opacity="0.92"/>
+    <circle cx="643" cy="80" r="9" fill="url(#kaidoku-mint)"/><circle cx="640.12" cy="77.12" r="2.16" fill="#ffffff" opacity="0.92"/>
+    <circle cx="717" cy="52" r="52" fill="url(#kaidoku-glow)"/>
+    <circle cx="783" cy="78" r="17" fill="url(#kaidoku-bubble)"/><circle cx="777.56" cy="72.56" r="4.08" fill="#ffffff" opacity="0.92"/>
+    <circle cx="769" cy="20" r="7" fill="url(#kaidoku-bubble)"/><circle cx="766.76" cy="17.759999999999998" r="1.68" fill="#ffffff" opacity="0.92"/>
+    <g transform="translate(683,88) scale(0.75)" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" fill="none" opacity="0.9">
+      <circle r="6" stroke-dasharray="3.5 4"/><path d="M0,-11 v-5"/><path d="M8,-8 l3.5,-3.5"/><path d="M11,0 h5"/><path d="M-8,-8 l-3.5,-3.5"/><path d="M-11,0 h-5"/>
+    </g>
+    <path d="M0,-12 C1.6,-3.6 3.6,-1.6 12,0 C3.6,1.6 1.6,3.6 0,12 C-1.6,3.6 -3.6,1.6 -12,0 C-3.6,-1.6 -1.6,-3.6 0,-12 Z" transform="translate(791,40) scale(0.62)" fill="#ffffff" opacity="1"/>
+    <path d="M0,-12 C1.6,-3.6 3.6,-1.6 12,0 C3.6,1.6 1.6,3.6 0,12 C-1.6,3.6 -3.6,1.6 -12,0 C-3.6,-1.6 -1.6,-3.6 0,-12 Z" transform="translate(753,14) scale(0.45)" fill="#ffffff" opacity="0.9"/>
+    <path d="M0,-12 C1.6,-3.6 3.6,-1.6 12,0 C3.6,1.6 1.6,3.6 0,12 C-1.6,3.6 -3.6,1.6 -12,0 C-3.6,-1.6 -1.6,-3.6 0,-12 Z" transform="translate(633,16) scale(0.42)" fill="#ffffff" opacity="0.85"/>
   </g>
-  <g transform="translate(696,52) scale(1.35)"><path d="M0,-8 C-7,-13 -18,-13 -24,-10 V17 C-18,14 -7,14 0,19 C7,14 18,14 24,17 V-10 C18,-13 7,-13 0,-8 Z" fill="url(#kaidoku-coral)"/>
+  <g transform="translate(717,53) scale(1.55)"><path d="M0,-8 C-7,-13 -18,-13 -24,-10 V17 C-18,14 -7,14 0,19 C7,14 18,14 24,17 V-10 C18,-13 7,-13 0,-8 Z" fill="url(#kaidoku-coral)"/>
       <path d="M0,-10 C-6,-15 -15,-15 -20.5,-12.5 V12.5 C-15,10 -6,10 0,14.5 Z" fill="#fff6f8"/>
       <path d="M0,-10 C6,-15 15,-15 20.5,-12.5 V12.5 C15,10 6,10 0,14.5 Z" fill="#ffeef2"/>
       <path d="M0,-10 V14.5" stroke="#ffb3c1" stroke-width="1.4"/>
-      <g transform="translate(0,1) scale(1)">
+      <g transform="translate(0,1)">
       <circle cx="-4.6" cy="0" r="1.9" fill="#33162a"/><circle cx="4.6" cy="0" r="1.9" fill="#33162a"/>
       <circle cx="-4.1" cy="-0.6" r="0.6" fill="#ffffff"/><circle cx="5.1" cy="-0.6" r="0.6" fill="#ffffff"/>
       <ellipse cx="-8" cy="3.4" rx="2.6" ry="1.5" fill="#ff8fab" opacity="0.75"/><ellipse cx="8" cy="3.4" rx="2.6" ry="1.5" fill="#ff8fab" opacity="0.75"/>
@@ -34,5 +43,5 @@
     </g></g>
   <circle cx="60" cy="52" r="28" fill="#33162a"/>
   <path d="M60 38 v28 M46 52 h28" stroke="#fff6fa" stroke-width="7" stroke-linecap="round"/>
-  <text x="112" y="64" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="34" font-weight="800" fill="#33162a">Add PoppingMango to Aidoku</text>
+  <text x="358.5" y="64" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="34" font-weight="800" fill="#33162a">Add PoppingMango to Aidoku</text>
 </svg>
