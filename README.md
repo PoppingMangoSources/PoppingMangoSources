@@ -3,7 +3,10 @@
 </p>
 
 <p align="center">
-  <img src="media/status.svg" alt="Status: iOS and iPadOS; reads manga, manhwa, manhua and novels" width="100%"/>
+  <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/badge-ios.svg?v=2" alt="iOS / iPadOS" height="28"/>
+  <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/badge-version.svg?v=2" alt="Paperback 0.9+" height="28"/>
+  <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/badge-count.svg?v=11" alt="28 Paperback sources" height="28"/>
+  <img src="media/badge-mana.svg" alt="11 Mana sources" height="28"/>
 </p>
 
 <p align="center">
@@ -42,85 +45,54 @@ are mirrors of anyone else's catalog.
   <img src="media/coin-paperback.svg" alt="Paperback" height="22"/> <b>Paperback</b> &nbsp;·&nbsp; <img src="media/coin-mana.svg" alt="Mana" height="22"/> <b>Mana</b> &nbsp;·&nbsp; <img src="media/coin-aidoku.svg" alt="Aidoku" height="22"/> <b>Aidoku</b>
 </p>
 
-<h4 align="center">Manga, Manhwa &amp; Manhua · 28</h4>
+#### Manga, Manhwa &amp; Manhua · 28
 
-<table>
-  <tr>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/bunmanga.png" width="44"/><br/><b>BunManga</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/></td>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/chikari.png" width="44"/><br/><b>Chikari</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/></td>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/cocomic.png" width="44"/><br/><b>Cocomic</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/></td>
-  </tr>
-  <tr>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/popmango-extensions-mana@main/media/sources/flamecomics.png" width="44"/><br/><b>FlameComics</b><br/><img src="media/coin-mana.svg" alt="Mana" height="20"/></td>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/kingofshojo.png" width="44"/><br/><b>KingOfShojo</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/></td>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/likemanga.png" width="44"/><br/><b>LikeManga</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/></td>
-  </tr>
-  <tr>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/luacomic.png" width="44"/><br/><b>Lua Comic</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/></td>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/mangaberri.png" width="44"/><br/><b>MangaBerri</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/></td>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/mangacherri.png" width="44"/><br/><b>MangaCherri</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/></td>
-  </tr>
-  <tr>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/popmango-extensions-mana@main/media/sources/mangadex.png" width="44"/><br/><b>MangaDex</b><br/><img src="media/coin-mana.svg" alt="Mana" height="20"/></td>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/popmango-extensions-mana@main/media/sources/mangafire.png" width="44"/><br/><b>MangaFire</b><br/><img src="media/coin-mana.svg" alt="Mana" height="20"/></td>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/popmango-extensions-mana@main/media/sources/mangago.png" width="44"/><br/><b>Mangago</b><br/><img src="media/coin-mana.svg" alt="Mana" height="20"/></td>
-  </tr>
-  <tr>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/mangahere.png" width="44"/><br/><b>MangaHere</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/></td>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/mangahome.png" width="44"/><br/><b>MangaHome</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/></td>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/mangatown.png" width="44"/><br/><b>MangaTown</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/></td>
-  </tr>
-  <tr>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/popmango-aidoku-sources@main/media/sources/mkissa.png" width="44"/><br/><b>Mkissa</b><br/><img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/></td>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/myreadingmanga.png" width="44"/><br/><b>MyReadingManga</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/></td>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/reimanga.png" width="44"/><br/><b>ReiManga</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/></td>
-  </tr>
-  <tr>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/rinkocomics.png" width="44"/><br/><b>RinkoComics</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-mana.svg" alt="Mana" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/></td>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/rokaricomics.png" width="44"/><br/><b>RokariComics</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-mana.svg" alt="Mana" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/></td>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/scansgg.png" width="44"/><br/><b>Scans.GG</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/></td>
-  </tr>
-  <tr>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/stonescape.png" width="44"/><br/><b>StoneScape</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-mana.svg" alt="Mana" height="20"/></td>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/templescan.png" width="44"/><br/><b>Temple Scan</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/></td>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/toonkotsu.png" width="44"/><br/><b>Toonkotsu</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-mana.svg" alt="Mana" height="20"/></td>
-  </tr>
-  <tr>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/valirscans.png" width="44"/><br/><b>ValirScans</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-mana.svg" alt="Mana" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/></td>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/vymanga.png" width="44"/><br/><b>VyManga</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/></td>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/xcomic.png" width="44"/><br/><b>XCOMIC</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-mana.svg" alt="Mana" height="20"/></td>
-  </tr>
-  <tr>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/yaoime.png" width="44"/><br/><b>YaoiMe</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/></td>
-    <td width="33%"></td>
-    <td width="33%"></td>
-  </tr>
-</table>
+| Source | Apps |
+| :----- | :--- |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/bunmanga.png" width="22" align="top"/>&nbsp; **BunManga** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/chikari.png" width="22" align="top"/>&nbsp; **Chikari** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/cocomic.png" width="22" align="top"/>&nbsp; **Cocomic** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/popmango-extensions-mana@main/media/sources/flamecomics.png" width="22" align="top"/>&nbsp; **FlameComics** | <img src="media/coin-mana.svg" alt="Mana" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/kingofshojo.png" width="22" align="top"/>&nbsp; **KingOfShojo** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/likemanga.png" width="22" align="top"/>&nbsp; **LikeManga** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/luacomic.png" width="22" align="top"/>&nbsp; **Lua Comic** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/mangaberri.png" width="22" align="top"/>&nbsp; **MangaBerri** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/mangacherri.png" width="22" align="top"/>&nbsp; **MangaCherri** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/popmango-extensions-mana@main/media/sources/mangadex.png" width="22" align="top"/>&nbsp; **MangaDex** | <img src="media/coin-mana.svg" alt="Mana" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/popmango-extensions-mana@main/media/sources/mangafire.png" width="22" align="top"/>&nbsp; **MangaFire** | <img src="media/coin-mana.svg" alt="Mana" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/popmango-extensions-mana@main/media/sources/mangago.png" width="22" align="top"/>&nbsp; **Mangago** | <img src="media/coin-mana.svg" alt="Mana" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/mangahere.png" width="22" align="top"/>&nbsp; **MangaHere** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/mangahome.png" width="22" align="top"/>&nbsp; **MangaHome** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/mangatown.png" width="22" align="top"/>&nbsp; **MangaTown** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/popmango-aidoku-sources@main/media/sources/mkissa.png" width="22" align="top"/>&nbsp; **Mkissa** | <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/myreadingmanga.png" width="22" align="top"/>&nbsp; **MyReadingManga** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/reimanga.png" width="22" align="top"/>&nbsp; **ReiManga** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/rinkocomics.png" width="22" align="top"/>&nbsp; **RinkoComics** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-mana.svg" alt="Mana" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/rokaricomics.png" width="22" align="top"/>&nbsp; **RokariComics** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-mana.svg" alt="Mana" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/scansgg.png" width="22" align="top"/>&nbsp; **Scans.GG** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/stonescape.png" width="22" align="top"/>&nbsp; **StoneScape** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-mana.svg" alt="Mana" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/templescan.png" width="22" align="top"/>&nbsp; **Temple Scan** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/toonkotsu.png" width="22" align="top"/>&nbsp; **Toonkotsu** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-mana.svg" alt="Mana" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/valirscans.png" width="22" align="top"/>&nbsp; **ValirScans** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-mana.svg" alt="Mana" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/vymanga.png" width="22" align="top"/>&nbsp; **VyManga** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/xcomic.png" width="22" align="top"/>&nbsp; **XCOMIC** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-mana.svg" alt="Mana" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/yaoime.png" width="22" align="top"/>&nbsp; **YaoiMe** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> |
 
-<h4 align="center">Novels · 5</h4>
+#### Novels · 5
 
-<table>
-  <tr>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/mvlempyr.png" width="44"/><br/><b>MVLEMPYR</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/></td>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/novelarchive.png" width="44"/><br/><b>NovelArchive</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/></td>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/novelcool.png" width="44"/><br/><b>NovelCool</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/></td>
-  </tr>
-  <tr>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/ranobes.png" width="44"/><br/><b>Ranobes</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/></td>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/violetscans.png" width="44"/><br/><b>VioletScans</b><br/><img src="media/coin-paperback.svg" alt="Paperback" height="20"/></td>
-    <td width="33%"></td>
-  </tr>
-</table>
+| Source | Apps |
+| :----- | :--- |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/mvlempyr.png" width="22" align="top"/>&nbsp; **MVLEMPYR** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/novelarchive.png" width="22" align="top"/>&nbsp; **NovelArchive** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/novelcool.png" width="22" align="top"/>&nbsp; **NovelCool** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> <img src="media/coin-aidoku.svg" alt="Aidoku" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/ranobes.png" width="22" align="top"/>&nbsp; **Ranobes** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/general-extensions-mangago@0.9%2Fstable/media/sources/violetscans.png" width="22" align="top"/>&nbsp; **VioletScans** | <img src="media/coin-paperback.svg" alt="Paperback" height="20"/> |
 
-<h4 align="center">Tracking · 1</h4>
+#### Tracking · 1
 
-<table>
-  <tr>
-    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/popmango-extensions-mana@main/media/sources/mangaupdates.png" width="44"/><br/><b>MangaUpdates</b><br/><img src="media/coin-mana.svg" alt="Mana" height="20"/></td>
-    <td width="33%"></td>
-    <td width="33%"></td>
-  </tr>
-</table>
+| Source | Apps |
+| :----- | :--- |
+| <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/popmango-extensions-mana@main/media/sources/mangaupdates.png" width="22" align="top"/>&nbsp; **MangaUpdates** | <img src="media/coin-mana.svg" alt="Mana" height="20"/> |
 
 </details>
 

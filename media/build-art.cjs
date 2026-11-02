@@ -286,55 +286,6 @@ const level = (x, y, t) => {
   <text x="${barX + 196}" y="${y}" font-family="${FONT}" font-size="20" font-weight="800" letter-spacing="3" fill="${INK}" opacity="0.65">${t.count} SOURCES</text>`;
 };
 
-// The status window under the banner: a manhwa system panel in the banner's pastels, listing
-// the platform and what the lists read, with an SSS rank crest crackling with pop rocks.
-const status = (valueW) => {
-  const W = 1000;
-  const H = 214;
-  const crestX = 880;
-  const crestY = 128;
-  const hex = (r) =>
-    Array.from({ length: 6 }, (_, i) => {
-      const a = ((i * 60 - 90) * Math.PI) / 180;
-      return `${(crestX + Math.cos(a) * r).toFixed(1)},${(crestY + Math.sin(a) * r).toFixed(1)}`;
-    }).join(" ");
-  if (230 + valueW > crestX - 80) throw new Error("status text runs into the rank crest");
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Status: iOS and iPadOS; reads manga, manhwa, manhua and novels">
-  <defs>${defs("s")}
-    <linearGradient id="s-panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff3f8"/><stop offset="0.55" stop-color="#fff1ea"/><stop offset="1" stop-color="#eef1ff"/></linearGradient>
-    <linearGradient id="s-edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffbbd5"/><stop offset="0.5" stop-color="#ffcda8"/><stop offset="1" stop-color="#8eafff"/></linearGradient>
-    <linearGradient id="s-crest" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffdcea"/><stop offset="0.5" stop-color="#ffc98a"/><stop offset="1" stop-color="#ff8fb4"/></linearGradient>
-    <clipPath id="s-clip"><rect x="3" y="3" width="${W - 6}" height="${H - 6}" rx="30"/></clipPath>
-  </defs>
-  <g clip-path="url(#s-clip)">
-    <rect width="${W}" height="${H}" fill="url(#s-panel)"/>
-    <rect width="${W}" height="50" fill="#ffffff" opacity="0.6"/>
-    <path d="M0,50 H${W}" stroke="url(#s-edge)" stroke-width="2"/>
-    <circle cx="${crestX}" cy="${crestY}" r="92" fill="url(#s-glow)"/>
-    ${popRocks(21, crestX - 96, 60, 190, 150, 18, ["#ff7aa5", "#ffb347", "#8eafff", "#9fd07f", "#ffffff"])}
-    ${bubble("s", "peach", 40, 190, 16)}
-    ${bubble("s", "blue", 700, 196, 10)}
-  </g>
-  <rect x="3" y="3" width="${W - 6}" height="${H - 6}" rx="30" fill="none" stroke="url(#s-edge)" stroke-width="4"/>
-  <path d="M30,16 L36,25 L30,34 L24,25 Z" fill="#7d9fff"/>
-  <text x="48" y="33" font-family="${FONT}" font-size="18" font-weight="800" letter-spacing="6" fill="#5b6fd8">SYSTEM</text>
-  <text x="${W - 30}" y="33" text-anchor="end" font-family="${FONT}" font-size="18" font-weight="800" letter-spacing="6" fill="#5b6fd8" opacity="0.8">STATUS WINDOW</text>
-  <text x="44" y="112" font-family="${FONT}" font-size="19" font-weight="800" letter-spacing="5" fill="${INK}" opacity="0.55">PLATFORM</text>
-  <text x="230" y="114" font-family="${FONT}" font-size="32" font-weight="800" fill="${INK}">iOS · iPadOS</text>
-  <text x="44" y="168" font-family="${FONT}" font-size="19" font-weight="800" letter-spacing="5" fill="${INK}" opacity="0.55">READS</text>
-  <text x="230" y="170" font-family="${FONT}" font-size="32" font-weight="800" fill="${INK}">Manga · Manhwa · Manhua · Novels</text>
-  <polygon points="${hex(70)}" fill="url(#s-crest)" stroke="#ffffff" stroke-width="4"/>
-  <polygon points="${hex(56)}" fill="none" stroke="#ffffff" stroke-width="1.6" opacity="0.8"/>
-  <ellipse cx="${crestX - 20}" cy="${crestY - 34}" rx="26" ry="9" fill="#ffffff" opacity="0.55" transform="rotate(-24 ${crestX - 20} ${crestY - 34})"/>
-  <text x="${crestX}" y="${crestY - 22}" text-anchor="middle" font-family="${FONT}" font-size="14" font-weight="800" letter-spacing="4" fill="${INK}" opacity="0.7">RANK</text>
-  <text x="${crestX}" y="${crestY + 20}" text-anchor="middle" font-family="${FONT}" font-size="44" font-weight="900" letter-spacing="1" fill="${INK}">SSS</text>
-  ${spark(crestX + 62, crestY - 60, 0.9)}
-  ${spark(crestX - 70, crestY + 52, 0.6, 0.9)}
-  ${pop(crestX + 76, crestY + 54, 0.8)}
-</svg>
-`;
-};
-
 // The coins marking which apps carry a source.
 const coin = (app) => {
   const t = APPS[app];
@@ -395,7 +346,6 @@ const guild = ({ label, aria, w, textWidth }) => {
 
   for (const size of [22, 27]) ADD_W[size] = await measure("Add Repo", size, 800, 0);
   for (const t of Object.values(APPS)) LV_W[`LV. ${t.count}`] = await measure(`LV. ${t.count}`, 20, 800, 2);
-  out("status.svg", status(await measure("Manga · Manhwa · Manhua · Novels", 32, 800, 0)));
 
   for (const app of Object.keys(APPS)) {
     out(`tile-${app}.svg`, tile(app));
