@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="372" viewBox="0 0 300 372" role="img" aria-label="Add PoppingMango to Aidoku, 20 sources">
+  <defs>
+    <linearGradient id="taidoku-mango" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffc98a"/><stop offset="1" stop-color="#ffa45c"/></linearGradient>
+    <linearGradient id="taidoku-ribbon" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f74b4b"/><stop offset="1" stop-color="#de4d4d"/></linearGradient>
+    <linearGradient id="taidoku-coral" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff8a9c"/><stop offset="1" stop-color="#ff375f"/></linearGradient>
+    <linearGradient id="taidoku-crystal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef3ff"/><stop offset="0.55" stop-color="#7d9fff"/><stop offset="1" stop-color="#3f5fe0"/></linearGradient>
+    <radialGradient id="taidoku-pearl" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#ffeaf3"/><stop offset="1" stop-color="#ff9fc3"/></radialGradient>
+    <radialGradient id="taidoku-glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="taidoku-bubble" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.3"/></radialGradient>
+    <radialGradient id="taidoku-peach" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#fff0e2" stop-opacity="0.95"/><stop offset="1" stop-color="#ffbf8a" stop-opacity="0.45"/></radialGradient>
+    <radialGradient id="taidoku-blue" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#f2f6ff" stop-opacity="0.95"/><stop offset="1" stop-color="#9db6ff" stop-opacity="0.45"/></radialGradient>
+    <radialGradient id="taidoku-mint" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#eef8e2" stop-opacity="0.95"/><stop offset="1" stop-color="#cfebb4" stop-opacity="0.45"/></radialGradient>
+    <linearGradient id="taidoku-fill" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#ffdcea"/><stop offset="0.38" stop-color="#ffc6d9"/><stop offset="0.66" stop-color="#ffc9c4"/><stop offset="1" stop-color="#ff9aae"/>
+    </linearGradient>
+    <clipPath id="taidoku-clip"><rect x="2" y="2" width="296" height="368" rx="46"/></clipPath>
+  </defs>
+  <g clip-path="url(#taidoku-clip)">
+    <rect width="300" height="372" fill="url(#taidoku-fill)"/>
+    <ellipse cx="120" cy="-30" rx="230" ry="96" fill="#ffffff" opacity="0.35"/>
+    <circle cx="62" cy="66" r="27" fill="url(#taidoku-peach)"/><circle cx="53.36" cy="57.36" r="6.4799999999999995" fill="#ffffff" opacity="0.92"/>
+    <circle cx="52" cy="196" r="11" fill="url(#taidoku-mint)"/><circle cx="48.48" cy="192.48" r="2.6399999999999997" fill="#ffffff" opacity="0.92"/>
+    <circle cx="252" cy="186" r="18" fill="url(#taidoku-bubble)"/><circle cx="246.24" cy="180.24" r="4.32" fill="#ffffff" opacity="0.92"/>
+    <circle cx="252" cy="56" r="9" fill="url(#taidoku-bubble)"/><circle cx="249.12" cy="53.12" r="2.16" fill="#ffffff" opacity="0.92"/>
+    <circle cx="150" cy="132" r="96" fill="url(#taidoku-glow)"/>
+    <circle cx="150" cy="132" r="80" fill="none" stroke="#ffffff" stroke-opacity="0.6" stroke-width="2" stroke-dasharray="3 8"/>
+    <g transform="translate(232,112) scale(0.9)" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" fill="none" opacity="0.9">
+      <circle r="6" stroke-dasharray="3.5 4"/><path d="M0,-11 v-5"/><path d="M8,-8 l3.5,-3.5"/><path d="M11,0 h5"/><path d="M-8,-8 l-3.5,-3.5"/><path d="M-11,0 h-5"/>
+    </g>
+    <path d="M0,-12 C1.6,-3.6 3.6,-1.6 12,0 C3.6,1.6 1.6,3.6 0,12 C-1.6,3.6 -3.6,1.6 -12,0 C-3.6,-1.6 -1.6,-3.6 0,-12 Z" transform="translate(270,150) scale(0.8)" fill="#ffffff" opacity="1"/>
+    <path d="M0,-12 C1.6,-3.6 3.6,-1.6 12,0 C3.6,1.6 1.6,3.6 0,12 C-1.6,3.6 -3.6,1.6 -12,0 C-3.6,-1.6 -1.6,-3.6 0,-12 Z" transform="translate(36,132) scale(0.6)" fill="#ffffff" opacity="0.9"/>
+    <path d="M0,-12 C1.6,-3.6 3.6,-1.6 12,0 C3.6,1.6 1.6,3.6 0,12 C-1.6,3.6 -3.6,1.6 -12,0 C-3.6,-1.6 -1.6,-3.6 0,-12 Z" transform="translate(204,36) scale(0.55)" fill="#ffffff" opacity="0.9"/>
+  </g>
+  <rect x="2" y="2" width="296" height="368" rx="46" fill="none" stroke="#ffffff" stroke-opacity="0.8" stroke-width="2.5"/>
+  <g transform="translate(150,136) scale(2.35)"><path d="M0,-8 C-7,-13 -18,-13 -24,-10 V17 C-18,14 -7,14 0,19 C7,14 18,14 24,17 V-10 C18,-13 7,-13 0,-8 Z" fill="url(#taidoku-coral)"/>
+      <path d="M0,-10 C-6,-15 -15,-15 -20.5,-12.5 V12.5 C-15,10 -6,10 0,14.5 Z" fill="#fff6f8"/>
+      <path d="M0,-10 C6,-15 15,-15 20.5,-12.5 V12.5 C15,10 6,10 0,14.5 Z" fill="#ffeef2"/>
+      <path d="M0,-10 V14.5" stroke="#ffb3c1" stroke-width="1.4"/>
+      <g transform="translate(0,1)">
+      <circle cx="-4.6" cy="0" r="1.9" fill="#33162a"/><circle cx="4.6" cy="0" r="1.9" fill="#33162a"/>
+      <circle cx="-4.1" cy="-0.6" r="0.6" fill="#ffffff"/><circle cx="5.1" cy="-0.6" r="0.6" fill="#ffffff"/>
+      <ellipse cx="-8" cy="3.4" rx="2.6" ry="1.5" fill="#ff8fab" opacity="0.75"/><ellipse cx="8" cy="3.4" rx="2.6" ry="1.5" fill="#ff8fab" opacity="0.75"/>
+      <path d="M-1.8,2.6 Q0,4.4 1.8,2.6" fill="none" stroke="#33162a" stroke-width="1.3" stroke-linecap="round"/>
+    </g></g>
+  <text x="150" y="258" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="40" font-weight="800" fill="#33162a">Aidoku</text>
+  <text x="150" y="290" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="800" letter-spacing="3" fill="#33162a" opacity="0.7">20 SOURCES</text>
+  <rect x="58" y="308" width="184" height="46" rx="23" fill="#33162a"/>
+  <path d="M90 322 v18 M81 331 h18" stroke="#fff6fa" stroke-width="4.5" stroke-linecap="round"/>
+  <text x="164" y="339" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#fff6fa">Add repo</text>
+</svg>

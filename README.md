@@ -3,28 +3,9 @@
 </p>
 
 <p align="center">
-  <img src="media/badge-ios.svg" alt="iOS / iPadOS" height="28"/>
-  <img src="media/badge-paperback.svg" alt="28 Paperback sources" height="28"/>
-  <img src="media/badge-mana.svg" alt="11 Mana sources" height="28"/>
-  <img src="media/badge-aidoku.svg" alt="20 Aidoku sources" height="28"/>
-</p>
-
-<p align="center">
-  <a href="https://poppingmangosources.github.io/general-extensions-mangago/0.9/test/">
-    <img src="media/button-paperback.svg" alt="Add PoppingMango to Paperback" height="52"/>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://poppingmangosources.github.io/popmango-extensions-mana/">
-    <img src="media/button-mana.svg" alt="Add PoppingMango to Mana" height="52"/>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://poppingmangosources.github.io/popmango-aidoku-sources/">
-    <img src="media/button-aidoku.svg" alt="Add PoppingMango to Aidoku" height="52"/>
-  </a>
+  <a href="https://poppingmangosources.github.io/general-extensions-mangago/0.9/test/"><img src="media/tile-paperback.svg" alt="Add PoppingMango to Paperback" width="31%"/></a>
+  <a href="https://poppingmangosources.github.io/popmango-extensions-mana/"><img src="media/tile-mana.svg" alt="Add PoppingMango to Mana" width="31%"/></a>
+  <a href="https://poppingmangosources.github.io/popmango-aidoku-sources/"><img src="media/tile-aidoku.svg" alt="Add PoppingMango to Aidoku" width="31%"/></a>
 </p>
 
 ---
@@ -97,9 +78,7 @@ are mirrors of anyone else's catalog.
 ### Paperback
 
 <p align="center">
-  <a href="https://poppingmangosources.github.io/general-extensions-mangago/0.9/test/">
-    <img src="media/button-paperback.svg" alt="Add PoppingMango to Paperback" height="52"/>
-  </a>
+  <a href="https://poppingmangosources.github.io/general-extensions-mangago/0.9/test/"><img src="media/tile-paperback.svg" alt="Add PoppingMango to Paperback" width="34%"/></a>
 </p>
 
 On iPhone or iPad, tap the button and add the repository from the page that opens. To add it by
@@ -112,9 +91,7 @@ https://poppingmangosources.github.io/general-extensions-mangago/0.9/test/
 ### Mana
 
 <p align="center">
-  <a href="https://poppingmangosources.github.io/popmango-extensions-mana/">
-    <img src="media/button-mana.svg" alt="Add PoppingMango to Mana" height="52"/>
-  </a>
+  <a href="https://poppingmangosources.github.io/popmango-extensions-mana/"><img src="media/tile-mana.svg" alt="Add PoppingMango to Mana" width="34%"/></a>
 </p>
 
 Tap the button, then **Add to Mana** on the page it opens. To add it by hand, open Mana and go to
@@ -127,9 +104,7 @@ https://poppingmangosources.github.io/popmango-extensions-mana/main
 ### Aidoku
 
 <p align="center">
-  <a href="https://poppingmangosources.github.io/popmango-aidoku-sources/">
-    <img src="media/button-aidoku.svg" alt="Add PoppingMango to Aidoku" height="52"/>
-  </a>
+  <a href="https://poppingmangosources.github.io/popmango-aidoku-sources/"><img src="media/tile-aidoku.svg" alt="Add PoppingMango to Aidoku" width="34%"/></a>
 </p>
 
 Tap the button and choose **Add Repository** on the page that opens. To add it by hand, open

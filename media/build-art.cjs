@@ -12,13 +12,8 @@ const FONT = "-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif";
 const SPARK =
   "M0,-12 C1.6,-3.6 3.6,-1.6 12,0 C3.6,1.6 1.6,3.6 0,12 C-1.6,3.6 -3.6,1.6 -12,0 C-3.6,-1.6 -1.6,-3.6 0,-12 Z";
 
-// Each app keeps the banner's pink and peach start and ends in its own colour: mango for
-// Paperback, mana blue, Aidoku's coral. `disc` is the plus disc; `pop` tints the big bubble.
+// The support links' pill colours.
 const APPS = {
-  ios: { light: "#ffd9e8", stroke: "#ffb3cf", emblem: "pearl" },
-  paperback: { via: "#ffc596", end: "#ffab68", light: "#ffe2c6", stroke: "#ffbd85", emblem: "book", disc: INK, plus: "#fff6fa", pop: "peach" },
-  mana: { via: "#cddbff", end: "#8eafff", light: "#dde6ff", stroke: "#a9c0ff", emblem: "crystal", disc: "#1f2c6e", plus: "#d8e4ff", pop: "blue" },
-  aidoku: { via: "#ffc4cc", end: "#ff95a8", light: "#ffdde3", stroke: "#ffa3b4", emblem: "openBook", disc: INK, plus: "#fff6fa", pop: "peach" },
   support: { light: "#ffe4cc", stroke: "#ffc49a", emblem: "chat" },
 };
 
@@ -104,42 +99,50 @@ const pill = ({ app, label, aria, w, h, size, weight, spacing, emblemScale, text
 `;
 };
 
-// The install buttons: the banner's gradient into the app's colour, the plus disc, the label
-// centred in the open space, and the app's emblem in a glow surrounded by popping bubbles.
-const ART = 200;
-const button = ({ app, label, w }) => {
-  const a = APPS[app];
-  const id = `k${app}`;
-  const ex = w - 104;
-  const textCenter = (96 + (w - ART)) / 2;
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="104" viewBox="0 0 ${w} 104" role="img" aria-label="${label}">
+// The app tiles: one card per app, side by side. The banner's diagonal pink and peach runs into
+// the app's colour; the emblem sits in a glow inside a cluster of popping bubbles, with the
+// app's name, its source count and an "Add repo" pill underneath. Every tile is identical in
+// layout, so the row reads as one set.
+const TILES = {
+  paperback: { name: "Paperback", count: "28 SOURCES", end: "#ffb070", mid: "#ffcda8", big: "peach" },
+  mana: { name: "Mana", count: "11 SOURCES", end: "#9fb9ff", mid: "#dfd8f4", big: "blue" },
+  aidoku: { name: "Aidoku", count: "20 SOURCES", end: "#ff9aae", mid: "#ffc9c4", big: "peach" },
+};
+const tile = (app) => {
+  const t = TILES[app];
+  const id = `t${app}`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="300" height="372" viewBox="0 0 300 372" role="img" aria-label="Add PoppingMango to ${t.name}, ${t.count.toLowerCase()}">
   <defs>${defs(id)}
-    <linearGradient id="${id}-fill" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ffdcea"/><stop offset="0.3" stop-color="#ffbbd5"/><stop offset="0.58" stop-color="#ffcda8"/>
-      <stop offset="0.82" stop-color="${a.via}"/><stop offset="1" stop-color="${a.end}"/>
+    <linearGradient id="${id}-fill" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#ffdcea"/><stop offset="0.38" stop-color="#ffc6d9"/><stop offset="0.66" stop-color="${t.mid}"/><stop offset="1" stop-color="${t.end}"/>
     </linearGradient>
-    <clipPath id="${id}-clip"><rect width="${w}" height="104" rx="52"/></clipPath>
+    <clipPath id="${id}-clip"><rect x="2" y="2" width="296" height="368" rx="46"/></clipPath>
   </defs>
-  <rect width="${w}" height="104" rx="52" fill="url(#${id}-fill)"/>
   <g clip-path="url(#${id}-clip)">
-    <rect x="6" y="6" width="${w - 12}" height="44" rx="22" fill="#ffffff" opacity="0.32"/>
-    ${bubble(id, a.pop, ex - 58, 30, 21)}
-    ${bubble(id, "mint", ex - 74, 80, 9)}
-    <circle cx="${ex}" cy="52" r="52" fill="url(#${id}-glow)"/>
-    ${bubble(id, "bubble", w - 38, 78, 17)}
-    ${bubble(id, "bubble", w - 52, 20, 7)}
-    ${pop(ex - 34, 88, 0.75)}
-    ${spark(w - 30, 40, 0.62)}
-    ${spark(ex + 36, 14, 0.45, 0.9)}
-    ${spark(ex - 84, 16, 0.42, 0.85)}
+    <rect width="300" height="372" fill="url(#${id}-fill)"/>
+    <ellipse cx="120" cy="-30" rx="230" ry="96" fill="#ffffff" opacity="0.35"/>
+    ${bubble(id, t.big, 62, 66, 27)}
+    ${bubble(id, "mint", 52, 196, 11)}
+    ${bubble(id, "bubble", 252, 186, 18)}
+    ${bubble(id, "bubble", 252, 56, 9)}
+    <circle cx="150" cy="132" r="96" fill="url(#${id}-glow)"/>
+    <circle cx="150" cy="132" r="80" fill="none" stroke="#ffffff" stroke-opacity="0.6" stroke-width="2" stroke-dasharray="3 8"/>
+    ${pop(232, 112, 0.9)}
+    ${spark(270, 150, 0.8)}
+    ${spark(36, 132, 0.6, 0.9)}
+    ${spark(204, 36, 0.55, 0.9)}
   </g>
-  <g transform="translate(${ex},53) scale(1.55)">${emblem(a.emblem, id)}</g>
-  <circle cx="60" cy="52" r="28" fill="${a.disc}"/>
-  <path d="M60 38 v28 M46 52 h28" stroke="${a.plus}" stroke-width="7" stroke-linecap="round"/>
-  <text x="${textCenter}" y="64" text-anchor="middle" font-family="${FONT}" font-size="34" font-weight="800" fill="${INK}">${label}</text>
+  <rect x="2" y="2" width="296" height="368" rx="46" fill="none" stroke="#ffffff" stroke-opacity="0.8" stroke-width="2.5"/>
+  <g transform="translate(150,136) scale(2.35)">${emblem(TILE_EMBLEM[app], id)}</g>
+  <text x="150" y="258" text-anchor="middle" font-family="${FONT}" font-size="40" font-weight="800" fill="${INK}">${t.name}</text>
+  <text x="150" y="290" text-anchor="middle" font-family="${FONT}" font-size="19" font-weight="800" letter-spacing="3" fill="${INK}" opacity="0.7">${t.count}</text>
+  <rect x="58" y="308" width="184" height="46" rx="23" fill="${INK}"/>
+  <path d="M90 322 v18 M81 331 h18" stroke="#fff6fa" stroke-width="4.5" stroke-linecap="round"/>
+  <text x="164" y="339" text-anchor="middle" font-family="${FONT}" font-size="22" font-weight="800" fill="#fff6fa">Add repo</text>
 </svg>
 `;
 };
+const TILE_EMBLEM = { paperback: "book", mana: "crystal", aidoku: "openBook" };
 
 (async () => {
   const browser = await chromium.launch();
@@ -163,30 +166,7 @@ const button = ({ app, label, w }) => {
     );
   const out = (name, svg) => fs.writeFileSync(path.join(__dirname, name), svg);
 
-  // Badges: one width for all four, the widest group's.
-  const badges = [
-    ["badge-ios.svg", "ios", "IOS / IPADOS", "iOS and iPadOS"],
-    ["badge-paperback.svg", "paperback", "PAPERBACK · 28", "28 Paperback sources"],
-    ["badge-mana.svg", "mana", "MANA · 11", "11 Mana sources"],
-    ["badge-aidoku.svg", "aidoku", "AIDOKU · 20", "20 Aidoku sources"],
-  ];
-  const badgeText = [];
-  for (const b of badges) badgeText.push(await measure(b[2], 22, 800, 2.5));
-  const badgeW = Math.ceil(Math.max(...badgeText) + 34 * 0.72 + 4 + 14 + 48);
-  badges.forEach(([file, app, label, aria], i) =>
-    out(file, pill({ app, label, aria, w: badgeW, h: 60, size: 22, weight: 800, spacing: 2.5, emblemScale: 0.72, textWidth: badgeText[i] })),
-  );
-
-  // Buttons: one width for all three, the widest label's plus the art.
-  const buttons = [
-    ["button-paperback.svg", "paperback", "Add PoppingMango to PB"],
-    ["button-mana.svg", "mana", "Add PoppingMango to Mana"],
-    ["button-aidoku.svg", "aidoku", "Add PoppingMango to Aidoku"],
-  ];
-  const buttonText = [];
-  for (const b of buttons) buttonText.push(await measure(b[2], 34, 800, 0));
-  const buttonW = Math.ceil(96 + Math.max(...buttonText) + 24 + ART);
-  for (const [file, app, label] of buttons) out(file, button({ app, label, w: buttonW }));
+  for (const app of Object.keys(TILES)) out(`tile-${app}.svg`, tile(app));
 
   // Support links: one width for both.
   const links = [
@@ -201,5 +181,5 @@ const button = ({ app, label, w }) => {
   );
 
   await browser.close();
-  console.log({ badgeW, buttonW, linkW });
+  console.log({ linkW });
 })();
