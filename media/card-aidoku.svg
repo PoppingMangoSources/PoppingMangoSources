@@ -20,14 +20,14 @@
     <ellipse cx="560" cy="-40" rx="620" ry="110" fill="#ffffff" opacity="0.32"/>
     
     <circle cx="190" cy="150" r="118" fill="url(#caidoku-glow)"/>
-    <path d="M28,168 h99 l8,-6 l7,12 l9,-46 l10,64 l9,-34 l6,10 h50" fill="none" stroke="#ffffff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
-    <path d="M0,22 C-5,17 -26,4 -26,-9 C-26,-19 -18,-25 -10,-25 C-4.5,-25 -1.2,-21.5 0,-18 C1.2,-21.5 4.5,-25 10,-25 C18,-25 26,-19 26,-9 C26,4 5,17 0,22 Z" transform="translate(190,156) scale(3.9)" fill="none" stroke="#ffffff" stroke-width="0.7" opacity="0.55"/>
-    <path d="M0,22 C-5,17 -26,4 -26,-9 C-26,-19 -18,-25 -10,-25 C-4.5,-25 -1.2,-21.5 0,-18 C1.2,-21.5 4.5,-25 10,-25 C18,-25 26,-19 26,-9 C26,4 5,17 0,22 Z" transform="translate(190,156) scale(4.5)" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.35"/>
+    <path d="M28,180 h99 l8,-6 l7,12 l9,-46 l10,64 l9,-34 l6,10 h50" fill="none" stroke="#ffffff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+    <path d="M0,22 C-5,17 -26,4 -26,-9 C-26,-19 -18,-25 -10,-25 C-4.5,-25 -1.2,-21.5 0,-18 C1.2,-21.5 4.5,-25 10,-25 C18,-25 26,-19 26,-9 C26,4 5,17 0,22 Z" transform="translate(190,172) scale(3.5)" fill="none" stroke="#ffffff" stroke-width="0.7" opacity="0.55"/>
+    <path d="M0,22 C-5,17 -26,4 -26,-9 C-26,-19 -18,-25 -10,-25 C-4.5,-25 -1.2,-21.5 0,-18 C1.2,-21.5 4.5,-25 10,-25 C18,-25 26,-19 26,-9 C26,4 5,17 0,22 Z" transform="translate(190,172) scale(4.05)" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.35"/>
     <g fill="#ff4d63"><path d="M0,22 C-5,17 -26,4 -26,-9 C-26,-19 -18,-25 -10,-25 C-4.5,-25 -1.2,-21.5 0,-18 C1.2,-21.5 4.5,-25 10,-25 C18,-25 26,-19 26,-9 C26,4 5,17 0,22 Z" transform="translate(76,66) scale(0.5) rotate(-14)"/><path d="M0,22 C-5,17 -26,4 -26,-9 C-26,-19 -18,-25 -10,-25 C-4.5,-25 -1.2,-21.5 0,-18 C1.2,-21.5 4.5,-25 10,-25 C18,-25 26,-19 26,-9 C26,4 5,17 0,22 Z" transform="translate(312,84) scale(0.42) rotate(12)"/><path d="M0,22 C-5,17 -26,4 -26,-9 C-26,-19 -18,-25 -10,-25 C-4.5,-25 -1.2,-21.5 0,-18 C1.2,-21.5 4.5,-25 10,-25 C18,-25 26,-19 26,-9 C26,4 5,17 0,22 Z" transform="translate(300,238) scale(0.34) rotate(-8)"/></g>
     <g fill="#ffffff" opacity="0.9"><path d="M0,22 C-5,17 -26,4 -26,-9 C-26,-19 -18,-25 -10,-25 C-4.5,-25 -1.2,-21.5 0,-18 C1.2,-21.5 4.5,-25 10,-25 C18,-25 26,-19 26,-9 C26,4 5,17 0,22 Z" transform="translate(96,228) scale(0.28)"/><path d="M0,22 C-5,17 -26,4 -26,-9 C-26,-19 -18,-25 -10,-25 C-4.5,-25 -1.2,-21.5 0,-18 C1.2,-21.5 4.5,-25 10,-25 C18,-25 26,-19 26,-9 C26,4 5,17 0,22 Z" transform="translate(334,40) scale(0.22)"/></g>
-    <g stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.9"><path d="M108,104 l-12,-8"/><path d="M104,124 l-14,0"/><path d="M272,104 l12,-8"/><path d="M276,124 l14,0"/></g>
-    <text x="190" y="44" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="4" fill="#ffffff" opacity="0.9">DOKI DOKI</text>
-    <g transform="translate(190,162) scale(3.1)"><path d="M0,22 C-5,17 -26,4 -26,-9 C-26,-19 -18,-25 -10,-25 C-4.5,-25 -1.2,-21.5 0,-18 C1.2,-21.5 4.5,-25 10,-25 C18,-25 26,-19 26,-9 C26,4 5,17 0,22 Z" fill="url(#caidoku-heart)"/>
+    <g stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.9"><path d="M106,124 l-12,-8"/><path d="M102,144 l-14,0"/><path d="M274,124 l12,-8"/><path d="M278,144 l14,0"/></g>
+    <text x="190" y="46" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="4" fill="#ffffff" opacity="0.9">DOKI DOKI</text>
+    <g transform="translate(190,176) scale(2.8)"><path d="M0,22 C-5,17 -26,4 -26,-9 C-26,-19 -18,-25 -10,-25 C-4.5,-25 -1.2,-21.5 0,-18 C1.2,-21.5 4.5,-25 10,-25 C18,-25 26,-19 26,-9 C26,4 5,17 0,22 Z" fill="url(#caidoku-heart)"/>
       <ellipse cx="-13" cy="-12" rx="5" ry="7.5" fill="#ffffff" opacity="0.5" transform="rotate(-30 -13 -12)"/>
       <circle cx="-5" cy="-17" r="2" fill="#ffffff" opacity="0.7"/>
       <path d="M0,-18 C0,-23 2,-27 5,-28.5" fill="none" stroke="#a8d48c" stroke-width="2.6" stroke-linecap="round"/>
@@ -49,9 +49,12 @@
   <rect x="2" y="2" width="996" height="296" rx="56" fill="none" stroke="#ffffff" stroke-opacity="0.8" stroke-width="3"/>
   <text x="400" y="112" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="66" font-weight="800" fill="#33162a">Aidoku</text>
   <text x="402" y="154" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="27" font-weight="700" fill="#33162a" opacity="0.72">Ported with love, doki doki</text>
-  <text x="402" y="194" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="3" fill="#33162a" opacity="0.7">20 SOURCES</text>
-  <rect x="400" y="214" width="236" height="56" rx="28" fill="#33162a"/>
-  <path d="M434 230 v24 M422 242 h24" stroke="#fff6fa" stroke-width="5.5" stroke-linecap="round"/>
-  <text x="550" y="252" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="27" font-weight="800" fill="#fff6fa">Add Repo</text>
-  
+  <text x="402" y="194" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="2" fill="#33162a" opacity="0.75">LV. 20</text>
+  <rect x="496.3125" y="179" width="180" height="15" rx="7.5" fill="#ffffff" opacity="0.75"/>
+  <rect x="496.3125" y="179" width="106" height="15" rx="7.5" fill="#ff4d63"/>
+  <rect x="500.3125" y="181" width="98" height="4" rx="2" fill="#ffffff" opacity="0.5"/>
+  <text x="692.3125" y="194" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="3" fill="#33162a" opacity="0.65">20 SOURCES</text>
+  <rect x="400.0" y="214" width="216.4" height="56" rx="28" fill="#33162a"/>
+  <path d="M438.5 231.5 v21.1 M428.0 242 h21.1" stroke="#fff6fa" stroke-width="5.4" stroke-linecap="round"/>
+  <text x="460.4" y="251.7" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="27" font-weight="800" fill="#fff6fa">Add Repo</text>
 </svg>

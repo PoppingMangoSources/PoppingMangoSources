@@ -1,19 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="515" height="72" viewBox="0 0 515 72" role="img" aria-label="Join the support Discord">
+<svg xmlns="http://www.w3.org/2000/svg" width="538" height="76" viewBox="0 0 538 76" role="img" aria-label="Join the support Discord">
   <defs>
-    <linearGradient id="lsupport-mango" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffc98a"/><stop offset="1" stop-color="#ffa45c"/></linearGradient>
-    <linearGradient id="lsupport-ribbon" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f74b4b"/><stop offset="1" stop-color="#de4d4d"/></linearGradient>
-    <linearGradient id="lsupport-heart" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#ff8a8f"/><stop offset="0.55" stop-color="#ff4d63"/><stop offset="1" stop-color="#e2324f"/></linearGradient>
-    <linearGradient id="lsupport-crystal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef3ff"/><stop offset="0.55" stop-color="#7d9fff"/><stop offset="1" stop-color="#3f5fe0"/></linearGradient>
-    <radialGradient id="lsupport-glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
-    <radialGradient id="lsupport-core" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="0.4" stop-color="#c9d8ff" stop-opacity="0.7"/><stop offset="1" stop-color="#7d9fff" stop-opacity="0"/></radialGradient>
-    <radialGradient id="lsupport-bubble" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.3"/></radialGradient>
-    <radialGradient id="lsupport-peach" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#fff0e2" stop-opacity="0.95"/><stop offset="1" stop-color="#ffbf8a" stop-opacity="0.45"/></radialGradient>
-    <radialGradient id="lsupport-blue" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#f2f6ff" stop-opacity="0.95"/><stop offset="1" stop-color="#9db6ff" stop-opacity="0.45"/></radialGradient>
-    <radialGradient id="lsupport-mint" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#eef8e2" stop-opacity="0.95"/><stop offset="1" stop-color="#cfebb4" stop-opacity="0.45"/></radialGradient>
-    <linearGradient id="lsupport-fill" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff6fa"/><stop offset="1" stop-color="#ffe4cc"/></linearGradient>
+    <linearGradient id="g-mango" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffc98a"/><stop offset="1" stop-color="#ffa45c"/></linearGradient>
+    <linearGradient id="g-ribbon" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f74b4b"/><stop offset="1" stop-color="#de4d4d"/></linearGradient>
+    <linearGradient id="g-heart" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#ff8a8f"/><stop offset="0.55" stop-color="#ff4d63"/><stop offset="1" stop-color="#e2324f"/></linearGradient>
+    <linearGradient id="g-crystal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef3ff"/><stop offset="0.55" stop-color="#7d9fff"/><stop offset="1" stop-color="#3f5fe0"/></linearGradient>
+    <radialGradient id="g-glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g-core" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="0.4" stop-color="#c9d8ff" stop-opacity="0.7"/><stop offset="1" stop-color="#7d9fff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g-bubble" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.3"/></radialGradient>
+    <radialGradient id="g-peach" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#fff0e2" stop-opacity="0.95"/><stop offset="1" stop-color="#ffbf8a" stop-opacity="0.45"/></radialGradient>
+    <radialGradient id="g-blue" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#f2f6ff" stop-opacity="0.95"/><stop offset="1" stop-color="#9db6ff" stop-opacity="0.45"/></radialGradient>
+    <radialGradient id="g-mint" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#eef8e2" stop-opacity="0.95"/><stop offset="1" stop-color="#cfebb4" stop-opacity="0.45"/></radialGradient>
+    <linearGradient id="g-fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a2142"/><stop offset="1" stop-color="#2a1124"/></linearGradient>
+    <linearGradient id="g-edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffbbd5"/><stop offset="0.5" stop-color="#ffcda8"/><stop offset="1" stop-color="#8eafff"/></linearGradient>
   </defs>
-  <rect x="1.5" y="1.5" width="512" height="69" rx="34.5" fill="url(#lsupport-fill)" stroke="#ffc49a" stroke-width="3"/>
-  <g transform="translate(99.234375,36)"><path d="M-15,-12 h30 a8 8 0 0 1 8 8 v10 a8 8 0 0 1 -8 8 h-12 l-9 8 v-8 h-9 a8 8 0 0 1 -8 -8 v-10 a8 8 0 0 1 8 -8 Z" fill="url(#lsupport-mango)"/>
+  <rect x="2" y="2" width="534" height="72" rx="36" fill="url(#g-fill)" stroke="url(#g-edge)" stroke-width="3.5"/>
+  <rect x="16" y="8" width="506" height="20" rx="10" fill="#ffffff" opacity="0.1"/>
+  <path d="M0,-12 C1.6,-3.6 3.6,-1.6 12,0 C3.6,1.6 1.6,3.6 0,12 C-1.6,3.6 -3.6,1.6 -12,0 C-3.6,-1.6 -1.6,-3.6 0,-12 Z" transform="translate(508,15) scale(0.4)" fill="#ffffff" opacity="0.85"/>
+  <g transform="translate(108.984375,38)"><path d="M-15,-12 h30 a8 8 0 0 1 8 8 v10 a8 8 0 0 1 -8 8 h-12 l-9 8 v-8 h-9 a8 8 0 0 1 -8 -8 v-10 a8 8 0 0 1 8 -8 Z" fill="url(#g-mango)"/>
       <circle cx="-7" cy="1" r="2.6" fill="#33162a"/><circle cx="0" cy="1" r="2.6" fill="#33162a"/><circle cx="7" cy="1" r="2.6" fill="#33162a"/></g>
-  <text x="131.234375" y="45" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="700" fill="#33162a">Join the Support Discord</text>
+  <text x="140.984375" y="47" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="800" fill="#fff6fa">Join the Support Discord</text>
 </svg>

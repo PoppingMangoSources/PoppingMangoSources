@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="media/chips.svg" alt="iOS and iPadOS: manga, novels, manhwa and manhua" width="78%"/>
+  <img src="media/status.svg" alt="Status: iOS and iPadOS; reads manga, manhwa, manhua and novels" width="100%"/>
 </p>
 
 <p align="center">

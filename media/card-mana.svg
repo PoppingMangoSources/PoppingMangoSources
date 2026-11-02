@@ -44,15 +44,12 @@
   <rect x="2" y="2" width="996" height="296" rx="56" fill="none" stroke="#ffffff" stroke-opacity="0.8" stroke-width="3"/>
   <text x="400" y="112" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="66" font-weight="800" fill="#33162a">Mana</text>
   <text x="402" y="154" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="27" font-weight="700" fill="#33162a" opacity="0.72">Native spells, cast for Mana</text>
-  
-    <g transform="translate(402,194)">
-      <text x="0" y="0" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="2" fill="#33162a" opacity="0.7">LV. 11</text>
-      <rect x="78" y="-15" width="150" height="14" rx="7" fill="#ffffff" opacity="0.7"/>
-      <rect x="78" y="-15" width="112" height="14" rx="7" fill="#7d9fff"/>
-      <rect x="82" y="-13" width="104" height="4" rx="2" fill="#ffffff" opacity="0.5"/>
-    </g>
-  <rect x="400" y="214" width="236" height="56" rx="28" fill="#33162a"/>
-  <path d="M434 230 v24 M422 242 h24" stroke="#fff6fa" stroke-width="5.5" stroke-linecap="round"/>
-  <text x="550" y="252" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="27" font-weight="800" fill="#fff6fa">Add Repo</text>
-  <text x="660" y="250" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="3" fill="#33162a" opacity="0.7">11 SOURCES</text>
+  <text x="402" y="194" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="2" fill="#33162a" opacity="0.75">LV. 11</text>
+  <rect x="487.390625" y="179" width="180" height="15" rx="7.5" fill="#ffffff" opacity="0.75"/>
+  <rect x="487.390625" y="179" width="58" height="15" rx="7.5" fill="#7d9fff"/>
+  <rect x="491.390625" y="181" width="50" height="4" rx="2" fill="#ffffff" opacity="0.5"/>
+  <text x="683.390625" y="194" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="3" fill="#33162a" opacity="0.65">11 SOURCES</text>
+  <rect x="400.0" y="214" width="216.4" height="56" rx="28" fill="#33162a"/>
+  <path d="M438.5 231.5 v21.1 M428.0 242 h21.1" stroke="#fff6fa" stroke-width="5.4" stroke-linecap="round"/>
+  <text x="460.4" y="251.7" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="27" font-weight="800" fill="#fff6fa">Add Repo</text>
 </svg>

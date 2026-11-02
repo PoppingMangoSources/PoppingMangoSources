@@ -15,9 +15,9 @@ const HEART =
   "M0,22 C-5,17 -26,4 -26,-9 C-26,-19 -18,-25 -10,-25 C-4.5,-25 -1.2,-21.5 0,-18 C1.2,-21.5 4.5,-25 10,-25 C18,-25 26,-19 26,-9 C26,4 5,17 0,22 Z";
 
 const APPS = {
-  paperback: { name: "Paperback", count: 28, emblem: "book", deep: "#ffa45c", end: "#ffb070", mid: "#ffcda8", big: "peach" },
-  mana: { name: "Mana", count: 11, emblem: "crystal", deep: "#6f8cf2", end: "#9fb9ff", mid: "#dfd8f4", big: "blue" },
-  aidoku: { name: "Aidoku", count: 20, emblem: "heart", deep: "#ff5a76", end: "#ff9aae", mid: "#ffc9c4", big: "peach" },
+  paperback: { name: "Paperback", count: 28, emblem: "book", deep: "#ffa45c", end: "#ffb070", mid: "#ffcda8", big: "peach", bar: "#ff9a52" },
+  mana: { name: "Mana", count: 11, emblem: "crystal", deep: "#6f8cf2", end: "#9fb9ff", mid: "#dfd8f4", big: "blue", bar: "#7d9fff" },
+  aidoku: { name: "Aidoku", count: 20, emblem: "heart", deep: "#ff5a76", end: "#ff9aae", mid: "#ffc9c4", big: "peach", bar: "#ff4d63" },
 };
 
 // A small seeded generator so the speckles land in the same places on every build.
@@ -175,11 +175,29 @@ const tile = (app) => {
   <g transform="translate(150,138) scale(2.35)">${emblem(t.emblem, id)}</g>
   <text x="150" y="258" text-anchor="middle" font-family="${FONT}" font-size="40" font-weight="800" fill="${INK}">${t.name}</text>
   <text x="150" y="290" text-anchor="middle" font-family="${FONT}" font-size="19" font-weight="800" letter-spacing="3" fill="${INK}" opacity="0.7">${t.count} SOURCES</text>
-  <rect x="58" y="308" width="184" height="46" rx="23" fill="${INK}"/>
-  <path d="M88 322 v18 M79 331 h18" stroke="#fff6fa" stroke-width="4.5" stroke-linecap="round"/>
-  <text x="162" y="339" text-anchor="middle" font-family="${FONT}" font-size="22" font-weight="800" fill="#fff6fa">Add Repo</text>
+  ${addRepo({ cx: 150, y: 308, h: 46, size: 22 }).svg}
 </svg>
 `;
+};
+
+// The "+ Add Repo" pill, sized to its content so the plus sits right beside the label.
+// Placed by its centre (`cx`) or its left edge (`x`).
+const ADD_W = {};
+const addRepo = ({ cx, x, y, h, size }) => {
+  const icon = size * 0.78;
+  const gap = size * 0.42;
+  const pad = h * 0.5;
+  const w = pad * 2 + icon + gap + ADD_W[size];
+  const left = x ?? cx - w / 2;
+  const px = left + pad + icon / 2;
+  const py = y + h / 2;
+  const stroke = size * 0.2;
+  return {
+    w,
+    svg: `<rect x="${left.toFixed(1)}" y="${y}" width="${w.toFixed(1)}" height="${h}" rx="${h / 2}" fill="${INK}"/>
+  <path d="M${px.toFixed(1)} ${(py - icon / 2).toFixed(1)} v${icon.toFixed(1)} M${(px - icon / 2).toFixed(1)} ${py} h${icon.toFixed(1)}" stroke="#fff6fa" stroke-width="${stroke.toFixed(1)}" stroke-linecap="round"/>
+  <text x="${(left + pad + icon + gap).toFixed(1)}" y="${(py + size * 0.36).toFixed(1)}" font-family="${FONT}" font-size="${size}" font-weight="800" fill="#fff6fa">Add Repo</text>`,
+  };
 };
 
 // The wide cards in "Add a Repository": the art panel carries each app's theme, the text sits
@@ -205,26 +223,19 @@ const CARD = {
     ${rukh(84, 70, 1.3)} ${rukh(306, 92, 1)} ${rukh(296, 230, 1.2)} ${rukh(72, 214, 0.9)} ${rukh(246, 38, 0.8, 0.8)}
     ${spark(120, 40, 0.7)} ${spark(330, 160, 0.6)} ${spark(56, 140, 0.55, 0.9)}
     <g transform="translate(190,150) scale(3)">${emblem("crystal", id)}</g>`,
-    badge: (x, y) => `
-    <g transform="translate(${x},${y})">
-      <text x="0" y="0" font-family="${FONT}" font-size="20" font-weight="800" letter-spacing="2" fill="${INK}" opacity="0.7">LV. 11</text>
-      <rect x="78" y="-15" width="150" height="14" rx="7" fill="#ffffff" opacity="0.7"/>
-      <rect x="78" y="-15" width="112" height="14" rx="7" fill="#7d9fff"/>
-      <rect x="82" y="-13" width="104" height="4" rx="2" fill="#ffffff" opacity="0.5"/>
-    </g>`,
   },
   aidoku: {
     line: "Ported with love, doki doki",
     art: (id) => `
     <circle cx="190" cy="150" r="118" fill="url(#${id}-glow)"/>
-    ${heartbeat(28, 168, 330)}
-    <path d="${HEART}" transform="translate(190,156) scale(3.9)" fill="none" stroke="#ffffff" stroke-width="0.7" opacity="0.55"/>
-    <path d="${HEART}" transform="translate(190,156) scale(4.5)" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.35"/>
+    ${heartbeat(28, 180, 330)}
+    <path d="${HEART}" transform="translate(190,172) scale(3.5)" fill="none" stroke="#ffffff" stroke-width="0.7" opacity="0.55"/>
+    <path d="${HEART}" transform="translate(190,172) scale(4.05)" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.35"/>
     <g fill="#ff4d63"><path d="${HEART}" transform="translate(76,66) scale(0.5) rotate(-14)"/><path d="${HEART}" transform="translate(312,84) scale(0.42) rotate(12)"/><path d="${HEART}" transform="translate(300,238) scale(0.34) rotate(-8)"/></g>
     <g fill="#ffffff" opacity="0.9"><path d="${HEART}" transform="translate(96,228) scale(0.28)"/><path d="${HEART}" transform="translate(334,40) scale(0.22)"/></g>
-    <g stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.9"><path d="M108,104 l-12,-8"/><path d="M104,124 l-14,0"/><path d="M272,104 l12,-8"/><path d="M276,124 l14,0"/></g>
-    <text x="190" y="44" text-anchor="middle" font-family="${FONT}" font-size="20" font-weight="800" letter-spacing="4" fill="#ffffff" opacity="0.9">DOKI DOKI</text>
-    <g transform="translate(190,162) scale(3.1)">${emblem("heart", id)}</g>`,
+    <g stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.9"><path d="M106,124 l-12,-8"/><path d="M102,144 l-14,0"/><path d="M274,124 l12,-8"/><path d="M278,144 l14,0"/></g>
+    <text x="190" y="46" text-anchor="middle" font-family="${FONT}" font-size="20" font-weight="800" letter-spacing="4" fill="#ffffff" opacity="0.9">DOKI DOKI</text>
+    <g transform="translate(190,176) scale(2.8)">${emblem("heart", id)}</g>`,
   },
 };
 
@@ -254,58 +265,72 @@ const card = (app) => {
   <rect x="2" y="2" width="${W - 4}" height="${H - 4}" rx="56" fill="none" stroke="#ffffff" stroke-opacity="0.8" stroke-width="3"/>
   <text x="400" y="112" font-family="${FONT}" font-size="66" font-weight="800" fill="${INK}">${t.name}</text>
   <text x="402" y="154" font-family="${FONT}" font-size="27" font-weight="700" fill="${INK}" opacity="0.72">${c.line}</text>
-  ${c.badge ? c.badge(402, 194) : `<text x="402" y="194" font-family="${FONT}" font-size="20" font-weight="800" letter-spacing="3" fill="${INK}" opacity="0.7">${t.count} SOURCES</text>`}
-  <rect x="400" y="214" width="236" height="56" rx="28" fill="${INK}"/>
-  <path d="M434 230 v24 M422 242 h24" stroke="#fff6fa" stroke-width="5.5" stroke-linecap="round"/>
-  <text x="550" y="252" text-anchor="middle" font-family="${FONT}" font-size="27" font-weight="800" fill="#fff6fa">Add Repo</text>
-  ${c.badge ? `<text x="660" y="250" font-family="${FONT}" font-size="20" font-weight="800" letter-spacing="3" fill="${INK}" opacity="0.7">${t.count} SOURCES</text>` : ""}
+  ${level(402, 194, t)}
+  ${addRepo({ x: 400, y: 214, h: 56, size: 27 }).svg}
 </svg>
 `;
 };
 
-// The candy chips under the banner: glossy gummy pills with a candy ball and pop-rock specks.
-const CHIPS = [
-  [["IOS / IPADOS", "#ffd3e3", "#ff9fc3"]],
-  [
-    ["MANGA", "#ffe0bd", "#ffad6b"],
-    ["NOVELS", "#e2e9ff", "#9db6ff"],
-    ["MANHWA", "#ffe2d2", "#ffb48c"],
-    ["MANHUA", "#ffd9e6", "#ff8fb4"],
-  ],
-];
-const chips = (widths) => {
-  const H = 62;
-  const GAP = 16;
-  const rowsW = CHIPS.map((row) => row.reduce((s, [label]) => s + widths[label] + 92, 0) + GAP * (row.length - 1));
-  const W = Math.ceil(Math.max(...rowsW)) + 8;
-  let body = "";
-  let gradients = "";
-  CHIPS.forEach((row, ri) => {
-    let x = (W - rowsW[ri]) / 2;
-    const y = 4 + ri * (H + 14);
-    row.forEach(([label, light, deep], ci) => {
-      const w = widths[label] + 92;
-      const gid = `g${ri}${ci}`;
-      gradients += `<linearGradient id="${gid}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${light}"/><stop offset="1" stop-color="${deep}"/></linearGradient>
-    <radialGradient id="${gid}b" cx="0.34" cy="0.3" r="0.8"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="${deep}"/></radialGradient>`;
-      body += `
-  <g transform="translate(${x.toFixed(1)},${y})">
-    <rect x="0" y="0" width="${w.toFixed(1)}" height="${H}" rx="${H / 2}" fill="url(#${gid})" stroke="#ffffff" stroke-opacity="0.85" stroke-width="2.5"/>
-    <rect x="12" y="6" width="${(w - 24).toFixed(1)}" height="20" rx="10" fill="#ffffff" opacity="0.5"/>
-    <circle cx="33" cy="${H / 2}" r="15" fill="url(#${gid}b)"/>
-    <circle cx="28" cy="${H / 2 - 5}" r="4.2" fill="#ffffff"/>
-    <circle cx="51" cy="13" r="4" fill="#ffffff" opacity="0.9"/>
-    ${popRocks(ri * 10 + ci + 3, w - 34, 12, 22, 38, 4, ["#ffffff"])}
-    <text x="${60}" y="${H / 2 + 9}" font-family="${FONT}" font-size="25" font-weight="800" letter-spacing="2.5" fill="${INK}">${label}</text>
-  </g>`;
-      x += w + GAP;
-    });
-  });
-  const totalH = 4 + CHIPS.length * (H + 14) - 10;
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${totalH}" viewBox="0 0 ${W} ${totalH}" role="img" aria-label="iOS and iPadOS: manga, novels, manhwa and manhua">
-  <defs>
-    ${gradients}
-  </defs>${body}
+// A manhwa "system" level bar: LV is the app's source count, filled against every source we
+// make. The bar starts after the measured "LV. N" label, so the two never touch.
+const TOTAL_SOURCES = 34;
+const LV_W = {};
+const level = (x, y, t) => {
+  const label = `LV. ${t.count}`;
+  const barX = x + LV_W[label] + 22;
+  const fill = Math.round((t.count / TOTAL_SOURCES) * 180);
+  return `<text x="${x}" y="${y}" font-family="${FONT}" font-size="20" font-weight="800" letter-spacing="2" fill="${INK}" opacity="0.75">${label}</text>
+  <rect x="${barX}" y="${y - 15}" width="180" height="15" rx="7.5" fill="#ffffff" opacity="0.75"/>
+  <rect x="${barX}" y="${y - 15}" width="${fill}" height="15" rx="7.5" fill="${t.bar}"/>
+  <rect x="${barX + 4}" y="${y - 13}" width="${fill - 8}" height="4" rx="2" fill="#ffffff" opacity="0.5"/>
+  <text x="${barX + 196}" y="${y}" font-family="${FONT}" font-size="20" font-weight="800" letter-spacing="3" fill="${INK}" opacity="0.65">${t.count} SOURCES</text>`;
+};
+
+// The status window under the banner: a manhwa system panel in the banner's pastels, listing
+// the platform and what the lists read, with an SSS rank crest crackling with pop rocks.
+const status = (valueW) => {
+  const W = 1000;
+  const H = 214;
+  const crestX = 880;
+  const crestY = 128;
+  const hex = (r) =>
+    Array.from({ length: 6 }, (_, i) => {
+      const a = ((i * 60 - 90) * Math.PI) / 180;
+      return `${(crestX + Math.cos(a) * r).toFixed(1)},${(crestY + Math.sin(a) * r).toFixed(1)}`;
+    }).join(" ");
+  if (230 + valueW > crestX - 80) throw new Error("status text runs into the rank crest");
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Status: iOS and iPadOS; reads manga, manhwa, manhua and novels">
+  <defs>${defs("s")}
+    <linearGradient id="s-panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff3f8"/><stop offset="0.55" stop-color="#fff1ea"/><stop offset="1" stop-color="#eef1ff"/></linearGradient>
+    <linearGradient id="s-edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffbbd5"/><stop offset="0.5" stop-color="#ffcda8"/><stop offset="1" stop-color="#8eafff"/></linearGradient>
+    <linearGradient id="s-crest" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffdcea"/><stop offset="0.5" stop-color="#ffc98a"/><stop offset="1" stop-color="#ff8fb4"/></linearGradient>
+    <clipPath id="s-clip"><rect x="3" y="3" width="${W - 6}" height="${H - 6}" rx="30"/></clipPath>
+  </defs>
+  <g clip-path="url(#s-clip)">
+    <rect width="${W}" height="${H}" fill="url(#s-panel)"/>
+    <rect width="${W}" height="50" fill="#ffffff" opacity="0.6"/>
+    <path d="M0,50 H${W}" stroke="url(#s-edge)" stroke-width="2"/>
+    <circle cx="${crestX}" cy="${crestY}" r="92" fill="url(#s-glow)"/>
+    ${popRocks(21, crestX - 96, 60, 190, 150, 18, ["#ff7aa5", "#ffb347", "#8eafff", "#9fd07f", "#ffffff"])}
+    ${bubble("s", "peach", 40, 190, 16)}
+    ${bubble("s", "blue", 700, 196, 10)}
+  </g>
+  <rect x="3" y="3" width="${W - 6}" height="${H - 6}" rx="30" fill="none" stroke="url(#s-edge)" stroke-width="4"/>
+  <path d="M30,16 L36,25 L30,34 L24,25 Z" fill="#7d9fff"/>
+  <text x="48" y="33" font-family="${FONT}" font-size="18" font-weight="800" letter-spacing="6" fill="#5b6fd8">SYSTEM</text>
+  <text x="${W - 30}" y="33" text-anchor="end" font-family="${FONT}" font-size="18" font-weight="800" letter-spacing="6" fill="#5b6fd8" opacity="0.8">STATUS WINDOW</text>
+  <text x="44" y="112" font-family="${FONT}" font-size="19" font-weight="800" letter-spacing="5" fill="${INK}" opacity="0.55">PLATFORM</text>
+  <text x="230" y="114" font-family="${FONT}" font-size="32" font-weight="800" fill="${INK}">iOS · iPadOS</text>
+  <text x="44" y="168" font-family="${FONT}" font-size="19" font-weight="800" letter-spacing="5" fill="${INK}" opacity="0.55">READS</text>
+  <text x="230" y="170" font-family="${FONT}" font-size="32" font-weight="800" fill="${INK}">Manga · Manhwa · Manhua · Novels</text>
+  <polygon points="${hex(70)}" fill="url(#s-crest)" stroke="#ffffff" stroke-width="4"/>
+  <polygon points="${hex(56)}" fill="none" stroke="#ffffff" stroke-width="1.6" opacity="0.8"/>
+  <ellipse cx="${crestX - 20}" cy="${crestY - 34}" rx="26" ry="9" fill="#ffffff" opacity="0.55" transform="rotate(-24 ${crestX - 20} ${crestY - 34})"/>
+  <text x="${crestX}" y="${crestY - 22}" text-anchor="middle" font-family="${FONT}" font-size="14" font-weight="800" letter-spacing="4" fill="${INK}" opacity="0.7">RANK</text>
+  <text x="${crestX}" y="${crestY + 20}" text-anchor="middle" font-family="${FONT}" font-size="44" font-weight="900" letter-spacing="1" fill="${INK}">SSS</text>
+  ${spark(crestX + 62, crestY - 60, 0.9)}
+  ${spark(crestX - 70, crestY + 52, 0.6, 0.9)}
+  ${pop(crestX + 76, crestY + 54, 0.8)}
 </svg>
 `;
 };
@@ -325,19 +350,23 @@ const coin = (app) => {
 `;
 };
 
-const pill = ({ label, aria, w, h, size, weight, textWidth }) => {
-  const id = "lsupport";
+// The support links: dark guild pills with the banner's gradient for a border.
+const guild = ({ label, aria, w, textWidth }) => {
+  const h = 76;
   const r = h / 2;
-  const emblemW = 36;
+  const iconW = 36;
   const gap = 14;
-  const groupX = (w - (emblemW + gap + textWidth)) / 2;
+  const groupX = (w - (iconW + gap + textWidth)) / 2;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="${aria}">
-  <defs>${defs(id)}
-    <linearGradient id="${id}-fill" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff6fa"/><stop offset="1" stop-color="#ffe4cc"/></linearGradient>
+  <defs>${defs("g")}
+    <linearGradient id="g-fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a2142"/><stop offset="1" stop-color="#2a1124"/></linearGradient>
+    <linearGradient id="g-edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffbbd5"/><stop offset="0.5" stop-color="#ffcda8"/><stop offset="1" stop-color="#8eafff"/></linearGradient>
   </defs>
-  <rect x="1.5" y="1.5" width="${w - 3}" height="${h - 3}" rx="${r - 1.5}" fill="url(#${id}-fill)" stroke="#ffc49a" stroke-width="3"/>
-  <g transform="translate(${groupX + emblemW / 2},${r})">${emblem("chat", id)}</g>
-  <text x="${groupX + emblemW + gap}" y="${r + size * 0.36}" font-family="${FONT}" font-size="${size}" font-weight="${weight}" fill="${INK}">${label}</text>
+  <rect x="2" y="2" width="${w - 4}" height="${h - 4}" rx="${r - 2}" fill="url(#g-fill)" stroke="url(#g-edge)" stroke-width="3.5"/>
+  <rect x="16" y="8" width="${w - 32}" height="20" rx="10" fill="#ffffff" opacity="0.1"/>
+  ${spark(w - 30, 15, 0.4, 0.85)}
+  <g transform="translate(${groupX + iconW / 2},${r})">${emblem("chat", "g")}</g>
+  <text x="${groupX + iconW + gap}" y="${r + 9}" font-family="${FONT}" font-size="25" font-weight="800" fill="#fff6fa">${label}</text>
 </svg>
 `;
 };
@@ -364,9 +393,9 @@ const pill = ({ label, aria, w, h, size, weight, textWidth }) => {
     );
   const out = (name, svg) => fs.writeFileSync(path.join(__dirname, name), svg);
 
-  const widths = {};
-  for (const row of CHIPS) for (const [label] of row) widths[label] = await measure(label, 25, 800, 2.5);
-  out("chips.svg", chips(widths));
+  for (const size of [22, 27]) ADD_W[size] = await measure("Add Repo", size, 800, 0);
+  for (const t of Object.values(APPS)) LV_W[`LV. ${t.count}`] = await measure(`LV. ${t.count}`, 20, 800, 2);
+  out("status.svg", status(await measure("Manga · Manhwa · Manhua · Novels", 32, 800, 0)));
 
   for (const app of Object.keys(APPS)) {
     out(`tile-${app}.svg`, tile(app));
@@ -379,9 +408,9 @@ const pill = ({ label, aria, w, h, size, weight, textWidth }) => {
     ["button-other-repos.svg", "Open the OTHER-REPOS Channel", "Open the OTHER-REPOS Discord channel"],
   ];
   const linkText = [];
-  for (const l of links) linkText.push(await measure(l[1], 25, 700, 0));
-  const linkW = Math.ceil(Math.max(...linkText) + 36 + 14 + 60);
-  links.forEach(([file, label, aria], i) => out(file, pill({ label, aria, w: linkW, h: 72, size: 25, weight: 700, textWidth: linkText[i] })));
+  for (const l of links) linkText.push(await measure(l[1], 25, 800, 0));
+  const linkW = Math.ceil(Math.max(...linkText) + 36 + 14 + 80);
+  links.forEach(([file, label, aria], i) => out(file, guild({ label, aria, w: linkW, textWidth: linkText[i] })));
 
   await browser.close();
 })();
