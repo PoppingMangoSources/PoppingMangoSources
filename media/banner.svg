@@ -1,27 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="PoppingMango — source list for Paperback">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="PoppingMango: source lists for Paperback, Mana and Aidoku">
   <defs>
-    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0.35">
       <stop offset="0" stop-color="#ffdcea"/>
-      <stop offset="0.36" stop-color="#ffbbd5"/>
-      <stop offset="0.72" stop-color="#ffcda8"/>
-      <stop offset="1" stop-color="#ffc17e"/>
+      <stop offset="0.3" stop-color="#ffbbd5"/>
+      <stop offset="0.55" stop-color="#ffcda8"/>
+      <stop offset="0.78" stop-color="#cfdcff"/>
+      <stop offset="1" stop-color="#8eafff"/>
     </linearGradient>
     <linearGradient id="mango" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#ffc98a"/>
       <stop offset="1" stop-color="#ffa45c"/>
     </linearGradient>
+    <linearGradient id="crystal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2f6ff"/>
+      <stop offset="0.5" stop-color="#86a6ff"/>
+      <stop offset="1" stop-color="#3a58d6"/>
+    </linearGradient>
+    <radialGradient id="manaGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="0.45" stop-color="#c3d3ff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#8eafff" stop-opacity="0"/>
+    </radialGradient>
     <radialGradient id="bubble" cx="0.34" cy="0.3" r="0.75">
       <stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/>
       <stop offset="1" stop-color="#ffffff" stop-opacity="0.3"/>
     </radialGradient>
-    <radialGradient id="mintBubble" cx="0.34" cy="0.3" r="0.75">
-      <stop offset="0" stop-color="#e6f6d8" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#cfebb4" stop-opacity="0.35"/>
+    <radialGradient id="manaBubble" cx="0.34" cy="0.3" r="0.75">
+      <stop offset="0" stop-color="#eef3ff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#9db6ff" stop-opacity="0.4"/>
     </radialGradient>
     <radialGradient id="peachBubble" cx="0.34" cy="0.3" r="0.75">
       <stop offset="0" stop-color="#ffe8d2" stop-opacity="0.9"/>
       <stop offset="1" stop-color="#ffcda8" stop-opacity="0.35"/>
     </radialGradient>
+    <path id="spark" d="M0,-12 C1.6,-3.6 3.6,-1.6 12,0 C3.6,1.6 1.6,3.6 0,12 C-1.6,3.6 -3.6,1.6 -12,0 C-3.6,-1.6 -1.6,-3.6 0,-12 Z"/>
     <clipPath id="card">
       <rect x="2" y="2" width="1196" height="296" rx="34"/>
     </clipPath>
@@ -30,16 +42,32 @@
   <g clip-path="url(#card)">
     <rect x="0" y="0" width="1200" height="300" fill="url(#brand)"/>
     <ellipse cx="540" cy="-70" rx="720" ry="150" fill="#ffffff" opacity="0.35"/>
-    <circle cx="905" cy="72" r="46" fill="url(#mintBubble)"/>
-    <circle cx="891" cy="58" r="10" fill="#ffffff" opacity="0.85"/>
-    <circle cx="1012" cy="198" r="70" fill="url(#bubble)"/>
-    <circle cx="991" cy="177" r="15" fill="#ffffff" opacity="0.9"/>
-    <circle cx="1132" cy="86" r="30" fill="url(#peachBubble)"/>
-    <circle cx="1124" cy="78" r="7" fill="#ffffff" opacity="0.9"/>
-    <circle cx="834" cy="246" r="22" fill="url(#peachBubble)"/>
-    <circle cx="1106" cy="262" r="16" fill="url(#mintBubble)"/>
+
+    <circle cx="1045" cy="150" r="150" fill="url(#manaGlow)"/>
+    <g transform="translate(1045,150)">
+      <circle r="92" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2" stroke-dasharray="3 9"/>
+      <circle r="70" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="1.5"/>
+      <path d="M0,-64 L40,-6 L0,66 L-40,-6 Z" fill="url(#crystal)"/>
+      <path d="M0,-64 L40,-6 L0,6 L-40,-6 Z" fill="#ffffff" opacity="0.42"/>
+      <path d="M0,6 L40,-6 L0,66 Z" fill="#2c47b8" opacity="0.25"/>
+      <path d="M-24,-14 L-9,-38" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <use href="#spark" transform="translate(1150,62) scale(1.4)" fill="#ffffff"/>
+    <use href="#spark" transform="translate(944,232) scale(0.9)" fill="#ffffff" opacity="0.9"/>
+    <use href="#spark" transform="translate(1158,238) scale(0.7)" fill="#ffffff" opacity="0.85"/>
+    <use href="#spark" transform="translate(930,64) scale(0.6)" fill="#ffffff" opacity="0.8"/>
+
+    <circle cx="845" cy="80" r="40" fill="url(#peachBubble)"/>
+    <circle cx="833" cy="68" r="9" fill="#ffffff" opacity="0.85"/>
+    <circle cx="1150" cy="150" r="20" fill="url(#manaBubble)"/>
+    <circle cx="1144" cy="144" r="5" fill="#ffffff" opacity="0.9"/>
+    <circle cx="902" cy="262" r="18" fill="url(#manaBubble)"/>
     <circle cx="757" cy="42" r="14" fill="#ffffff" opacity="0.6"/>
-    <circle cx="64" cy="252" r="26" fill="url(#mintBubble)"/>
+    <g transform="translate(990,40)" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.85">
+      <circle r="9" fill="none" stroke-dasharray="4 5"/>
+      <path d="M0,-17 v-7"/><path d="M12,-12 l5,-5"/><path d="M17,0 h7"/><path d="M-12,-12 l-5,-5"/><path d="M-17,0 h-7"/>
+    </g>
+    <circle cx="64" cy="252" r="26" fill="url(#peachBubble)"/>
     <circle cx="56" cy="243" r="6" fill="#ffffff" opacity="0.9"/>
   </g>
   <rect x="2" y="2" width="1196" height="296" rx="34" fill="none" stroke="#ffffff" stroke-opacity="0.75" stroke-width="2"/>
@@ -58,11 +86,12 @@
     <circle cx="66" cy="-52" r="7" fill="#ffffff" opacity="0.95"/>
     <circle cx="80" cy="-30" r="4.5" fill="#ffffff" opacity="0.8"/>
     <circle cx="-66" cy="50" r="6" fill="#ffffff" opacity="0.85"/>
+    <use href="#spark" transform="translate(58,58) scale(0.8)" fill="#7d9fff"/>
   </g>
 
   <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" fill="#33162a">
     <text x="272" y="150" font-size="64" font-weight="800">PoppingMango</text>
     <text x="274" y="205" font-size="25" font-weight="700" letter-spacing="4" opacity="0.82">NOVELS · MANGA · MANHWA · MANHUA</text>
-    <text x="274" y="245" font-size="21" font-weight="600" letter-spacing="2" opacity="0.68">SOURCE LIST FOR PAPERBACK</text>
+    <text x="274" y="245" font-size="21" font-weight="600" letter-spacing="2" opacity="0.68">SOURCE LISTS FOR PAPERBACK · MANA · AIDOKU</text>
   </g>
 </svg>

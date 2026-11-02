@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="742" height="104" viewBox="0 0 742 104" role="img" aria-label="Add PoppingMango to Mana">
+  <defs>
+    <linearGradient id="btn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffdcea"/><stop offset="0.3" stop-color="#ffcda8"/>
+      <stop offset="0.62" stop-color="#cddbff"/><stop offset="1" stop-color="#8eafff"/>
+    </linearGradient>
+    <linearGradient id="crystal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef3ff"/><stop offset="0.55" stop-color="#7d9fff"/><stop offset="1" stop-color="#3f5fe0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/><stop offset="1" stop-color="#b9ccff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bub" cx="0.34" cy="0.3" r="0.75">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.92"/><stop offset="1" stop-color="#c7d6ff" stop-opacity="0.35"/>
+    </radialGradient>
+    <clipPath id="clip"><rect x="0" y="0" width="742" height="104" rx="52"/></clipPath>
+  </defs>
+  <rect x="0" y="0" width="742" height="104" rx="52" fill="url(#btn)"/>
+  <g clip-path="url(#clip)">
+    <rect x="6" y="6" width="730" height="44" rx="22" fill="#ffffff" opacity="0.34"/>
+    <circle cx="655" cy="52" r="46" fill="url(#glow)"/>
+    <path d="M655 18 L677 46 L655 88 L633 46 Z" fill="url(#crystal)"/>
+    <path d="M655 18 L677 46 L655 52 L633 46 Z" fill="#ffffff" opacity="0.45"/>
+    <path d="M641 42 L650 30" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+    <circle cx="710" cy="80" r="17" fill="url(#bub)"/>
+    <circle cx="704" cy="74" r="4.5" fill="#ffffff" opacity="0.9"/>
+    <path d="M707 22 C708.5 27 709 27.5 714 29 C709 30.5 708.5 31 707 36 C705.5 31 705 30.5 700 29 C705 27.5 705.5 27 707 22 Z" fill="#ffffff"/>
+    <path d="M616 74 C617 77.5 617.5 78 621 79 C617.5 80 617 80.5 616 84 C615 80.5 614.5 80 611 79 C614.5 78 615 77.5 616 74 Z" fill="#ffffff" opacity="0.9"/>
+    <g stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity="0.8">
+      <path d="M622 26 l-6 -5"/><path d="M628 22 l1 -7"/><path d="M616 32 l-7 1"/>
+    </g>
+  </g>
+  <circle cx="60" cy="52" r="28" fill="#1f2c6e"/>
+  <path d="M60 38 v28 M46 52 h28" stroke="#d8e4ff" stroke-width="7" stroke-linecap="round"/>
+  <text x="112" y="64" text-anchor="start" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="35" font-weight="800" fill="#33162a">Add PoppingMango to Mana</text>
+</svg>

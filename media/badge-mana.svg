@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="60" viewBox="0 0 260 60" role="img" aria-label="11 Mana sources">
+  <defs><linearGradient id="c" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef3ff"/><stop offset="0.55" stop-color="#7d9fff"/><stop offset="1" stop-color="#3f5fe0"/></linearGradient></defs>
+  <rect x="1.5" y="1.5" width="257" height="57" rx="28.5" fill="#dde6ff" stroke="#9db6ff" stroke-width="3"/>
+  <path d="M39 13 L50 28 L39 47 L28 28 Z" fill="url(#c)"/>
+  <path d="M39 13 L50 28 L39 31 L28 28 Z" fill="#ffffff" opacity="0.5"/>
+  <path d="M56 12 C57 15.5 57.5 16 61 17 C57.5 18 57 18.5 56 22 C55 18.5 54.5 18 51 17 C54.5 16 55 15.5 56 12 Z" fill="#ffffff"/>
+  <text x="158" y="38" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="3" fill="#33162a">MANA · 11</text>
+</svg>
