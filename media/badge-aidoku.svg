@@ -1,7 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="288" height="60" viewBox="0 0 288 60" role="img" aria-label="20 Aidoku sources">
-  <defs><radialGradient id="b" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#eef8e2"/><stop offset="1" stop-color="#a8d48c"/></radialGradient></defs>
-  <rect x="1.5" y="1.5" width="285" height="57" rx="28.5" fill="#dcefc8" stroke="#a8d48c" stroke-width="3"/>
-  <circle cx="39" cy="29" r="13" fill="url(#b)"/><circle cx="34" cy="24" r="3.5" fill="#ffffff"/>
-  <circle cx="55" cy="18" r="5" fill="#ffffff" opacity="0.9"/>
-  <text x="172" y="38" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="3" fill="#33162a">AIDOKU · 20</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="263" height="60" viewBox="0 0 263 60" role="img" aria-label="20 Aidoku sources">
+  <defs>
+    <linearGradient id="baidoku-mango" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffc98a"/><stop offset="1" stop-color="#ffa45c"/></linearGradient>
+    <linearGradient id="baidoku-crystal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f2f6ff"/><stop offset="0.5" stop-color="#86a6ff"/><stop offset="1" stop-color="#3a58d6"/></linearGradient>
+    <radialGradient id="baidoku-pink" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#fff1f7"/><stop offset="1" stop-color="#ff9fc3"/></radialGradient>
+    <radialGradient id="baidoku-mint" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#f1f9e8"/><stop offset="1" stop-color="#9fd07f"/></radialGradient>
+    <radialGradient id="baidoku-glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="baidoku-bubble" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#ffffff" stop-opacity="0.92"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.32"/></radialGradient>
+    <linearGradient id="baidoku-fill" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff4f9"/><stop offset="1" stop-color="#e0f0cf"/></linearGradient>
+  </defs>
+  <rect x="1.5" y="1.5" width="260" height="57" rx="28.5" fill="url(#baidoku-fill)" stroke="#b3da96" stroke-width="3"/>
+  <rect x="5" y="5" width="253" height="50" rx="25" fill="none" stroke="#ffffff" stroke-opacity="0.75" stroke-width="1.5"/>
+  <g transform="translate(37,30) scale(0.78)"><circle r="16" fill="url(#baidoku-mint)"/><circle cx="-6" cy="-6" r="4.5" fill="#ffffff"/></g>
+  <path d="M0,-12 C1.6,-3.6 3.6,-1.6 12,0 C3.6,1.6 1.6,3.6 0,12 C-1.6,3.6 -3.6,1.6 -12,0 C-3.6,-1.6 -1.6,-3.6 0,-12 Z" transform="translate(55,15) scale(0.42)" fill="#ffffff" opacity="1"/>
+  <text x="70" y="38.5" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="2.5" fill="#33162a">AIDOKU · 20</text>
 </svg>

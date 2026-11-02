@@ -1,29 +1,29 @@
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/banner.svg?v=3" alt="PoppingMango: source lists for Paperback, Mana and Aidoku" width="100%"/>
+  <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/banner.svg?v=4" alt="PoppingMango: source lists for Paperback, Mana and Aidoku" width="100%"/>
 </p>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/badge-ios.svg?v=3" alt="iOS / iPadOS" height="28"/>
-  <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/badge-paperback.svg?v=3" alt="28 Paperback sources" height="28"/>
-  <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/badge-mana.svg?v=3" alt="11 Mana sources" height="28"/>
-  <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/badge-aidoku.svg?v=3" alt="20 Aidoku sources" height="28"/>
+  <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/badge-ios.svg?v=4" alt="iOS / iPadOS" height="28"/>
+  <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/badge-paperback.svg?v=4" alt="28 Paperback sources" height="28"/>
+  <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/badge-mana.svg?v=4" alt="11 Mana sources" height="28"/>
+  <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/badge-aidoku.svg?v=4" alt="20 Aidoku sources" height="28"/>
 </p>
 
 <p align="center">
   <a href="https://poppingmangosources.github.io/general-extensions-mangago/0.9/test/">
-    <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/button-paperback.svg?v=3" alt="Add PoppingMango to Paperback" height="52"/>
+    <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/button-paperback.svg?v=4" alt="Add PoppingMango to Paperback" height="52"/>
   </a>
 </p>
 
 <p align="center">
   <a href="https://poppingmangosources.github.io/popmango-extensions-mana/">
-    <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/button-mana.svg?v=3" alt="Add PoppingMango to Mana" height="52"/>
+    <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/button-mana.svg?v=4" alt="Add PoppingMango to Mana" height="52"/>
   </a>
 </p>
 
 <p align="center">
   <a href="https://poppingmangosources.github.io/popmango-aidoku-sources/">
-    <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/button-aidoku.svg?v=3" alt="Add PoppingMango to Aidoku" height="52"/>
+    <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/button-aidoku.svg?v=4" alt="Add PoppingMango to Aidoku" height="52"/>
   </a>
 </p>
 
@@ -98,7 +98,7 @@ are mirrors of anyone else's catalog.
 
 <p align="center">
   <a href="https://poppingmangosources.github.io/general-extensions-mangago/0.9/test/">
-    <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/button-paperback.svg?v=3" alt="Add PoppingMango to Paperback" height="52"/>
+    <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/button-paperback.svg?v=4" alt="Add PoppingMango to Paperback" height="52"/>
   </a>
 </p>
 
@@ -113,7 +113,7 @@ https://poppingmangosources.github.io/general-extensions-mangago/0.9/test/
 
 <p align="center">
   <a href="https://poppingmangosources.github.io/popmango-extensions-mana/">
-    <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/button-mana.svg?v=3" alt="Add PoppingMango to Mana" height="52"/>
+    <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/button-mana.svg?v=4" alt="Add PoppingMango to Mana" height="52"/>
   </a>
 </p>
 
@@ -128,7 +128,7 @@ https://poppingmangosources.github.io/popmango-extensions-mana/main
 
 <p align="center">
   <a href="https://poppingmangosources.github.io/popmango-aidoku-sources/">
-    <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/button-aidoku.svg?v=3" alt="Add PoppingMango to Aidoku" height="52"/>
+    <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/button-aidoku.svg?v=4" alt="Add PoppingMango to Aidoku" height="52"/>
   </a>
 </p>
 
@@ -145,13 +145,13 @@ Refresh the repository in any of the apps whenever you want to pick up source up
 
 <p align="center">
   <a href="https://discord.com/invite/inkdex">
-    <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/button-discord.svg?v=3" alt="Join the support Discord" height="36"/>
+    <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/button-discord.svg?v=4" alt="Join the support Discord" height="36"/>
   </a>
 </p>
 
 <p align="center">
   <a href="https://discord.com/channels/965890377896845352/1367512880228077648">
-    <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/button-other-repos.svg?v=3" alt="Open the OTHER-REPOS Discord channel" height="36"/>
+    <img src="https://cdn.jsdelivr.net/gh/PoppingMangoSources/PoppingMangoSources@main/media/button-other-repos.svg?v=4" alt="Open the OTHER-REPOS Discord channel" height="36"/>
   </a>
 </p>
 

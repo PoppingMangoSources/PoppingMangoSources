@@ -1,7 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="60" viewBox="0 0 300 60" role="img" aria-label="iOS and iPadOS">
-  <defs><radialGradient id="b" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#ffeaf3"/><stop offset="1" stop-color="#ff9fc3"/></radialGradient></defs>
-  <rect x="1.5" y="1.5" width="297" height="57" rx="28.5" fill="#ffd5e7" stroke="#ff9fc3" stroke-width="3"/>
-  <circle cx="39" cy="29" r="13" fill="url(#b)"/><circle cx="34" cy="24" r="3.5" fill="#ffffff"/>
-  <circle cx="55" cy="18" r="5" fill="#ffffff" opacity="0.9"/>
-  <text x="178" y="38" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="3" fill="#33162a">IOS / IPADOS</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="270" height="60" viewBox="0 0 270 60" role="img" aria-label="iOS and iPadOS">
+  <defs>
+    <linearGradient id="bios-mango" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffc98a"/><stop offset="1" stop-color="#ffa45c"/></linearGradient>
+    <linearGradient id="bios-crystal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f2f6ff"/><stop offset="0.5" stop-color="#86a6ff"/><stop offset="1" stop-color="#3a58d6"/></linearGradient>
+    <radialGradient id="bios-pink" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#fff1f7"/><stop offset="1" stop-color="#ff9fc3"/></radialGradient>
+    <radialGradient id="bios-mint" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#f1f9e8"/><stop offset="1" stop-color="#9fd07f"/></radialGradient>
+    <radialGradient id="bios-glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="bios-bubble" cx="0.34" cy="0.3" r="0.75"><stop offset="0" stop-color="#ffffff" stop-opacity="0.92"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.32"/></radialGradient>
+    <linearGradient id="bios-fill" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff4f9"/><stop offset="1" stop-color="#ffdbe9"/></linearGradient>
+  </defs>
+  <rect x="1.5" y="1.5" width="267" height="57" rx="28.5" fill="url(#bios-fill)" stroke="#ffb3cf" stroke-width="3"/>
+  <rect x="5" y="5" width="260" height="50" rx="25" fill="none" stroke="#ffffff" stroke-opacity="0.75" stroke-width="1.5"/>
+  <g transform="translate(37,30) scale(0.78)"><circle r="16" fill="url(#bios-pink)"/><circle cx="-6" cy="-6" r="4.5" fill="#ffffff"/></g>
+  <path d="M0,-12 C1.6,-3.6 3.6,-1.6 12,0 C3.6,1.6 1.6,3.6 0,12 C-1.6,3.6 -3.6,1.6 -12,0 C-3.6,-1.6 -1.6,-3.6 0,-12 Z" transform="translate(55,15) scale(0.42)" fill="#ffffff" opacity="1"/>
+  <text x="70" y="38.5" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="2.5" fill="#33162a">IOS / IPADOS</text>
 </svg>
